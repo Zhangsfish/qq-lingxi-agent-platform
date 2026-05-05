@@ -1,0 +1,3986 @@
+[
+  {
+    "id": "person_ltc_001",
+    "display_name": "慢变量记录员",
+    "scene": "long_term_community_matching",
+    "role_type": "高信内容贡献者",
+    "bio": "慢变量记录员长期活跃在长期共创场景，常围绕组织文化复盘和项目共创记录输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "组织文化复盘",
+      "项目共创记录",
+      "周末线下茶局",
+      "日常读书打卡"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "周末线下茶局",
+      "日常读书打卡",
+      "真诚"
+    ],
+    "suitable_for": [
+      "愿意提供真实细节的人",
+      "能接受慢节奏讨论的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "只想快速薅资源的人",
+      "习惯刷屏或带节奏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "medium",
+    "connection_intensity": "strong",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微信息过载"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说组织文化复盘里最重要的约束条件吗",
+      "如果我想参与长期共创，应该先避免哪些误判",
+      "你发过的项目共创记录内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_ltc_001",
+      "grp_ltc_002"
+    ],
+    "authored_content_ids": [
+      "cnt_ltc_001_a",
+      "cnt_ltc_001_b",
+      "cnt_ltc_002_a"
+    ]
+  },
+  {
+    "id": "person_ltc_002",
+    "display_name": "复盘茶局主理人",
+    "scene": "long_term_community_matching",
+    "role_type": "高信 KOL",
+    "bio": "复盘茶局主理人长期活跃在长期共创场景，常围绕项目共创记录和长期主义判断笔记输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "项目共创记录",
+      "长期主义判断笔记",
+      "日常读书打卡",
+      "项目进度闲聊"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "日常读书打卡",
+      "项目进度闲聊",
+      "长期主义"
+    ],
+    "suitable_for": [
+      "愿意提供真实细节的人",
+      "能接受慢节奏讨论的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "只想快速薅资源的人",
+      "习惯刷屏或带节奏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "medium",
+    "connection_intensity": "strong",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微信息过载"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说项目共创记录里最重要的约束条件吗",
+      "如果我想参与长期共创，应该先避免哪些误判",
+      "你发过的长期主义判断笔记内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_ltc_002",
+      "grp_ltc_003"
+    ],
+    "authored_content_ids": [
+      "cnt_ltc_002_b",
+      "cnt_ltc_003_a",
+      "cnt_ltc_003_b"
+    ]
+  },
+  {
+    "id": "person_ltc_003",
+    "display_name": "小火慢炖",
+    "scene": "long_term_community_matching",
+    "role_type": "资深过来人",
+    "bio": "小火慢炖长期活跃在长期共创场景，常围绕成员长文和失败复盘输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "成员长文",
+      "失败复盘",
+      "生活状态同步",
+      "周末线下茶局"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "生活状态同步",
+      "周末线下茶局",
+      "彼此成就"
+    ],
+    "suitable_for": [
+      "愿意提供真实细节的人",
+      "能接受慢节奏讨论的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "只想快速薅资源的人",
+      "习惯刷屏或带节奏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "medium",
+    "connection_intensity": "medium",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微信息过载"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说成员长文里最重要的约束条件吗",
+      "如果我想参与长期共创，应该先避免哪些误判",
+      "你发过的失败复盘内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_ltc_004",
+      "grp_ltc_005"
+    ],
+    "authored_content_ids": [
+      "cnt_ltc_004_a",
+      "cnt_ltc_004_b",
+      "cnt_ltc_005_a"
+    ]
+  },
+  {
+    "id": "person_ltc_004",
+    "display_name": "长期主义小周",
+    "scene": "long_term_community_matching",
+    "role_type": "老成员答疑者",
+    "bio": "长期主义小周长期活跃在长期共创场景，常围绕失败复盘和组织文化复盘输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "失败复盘",
+      "组织文化复盘",
+      "周末线下茶局",
+      "日常读书打卡"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "周末线下茶局",
+      "日常读书打卡",
+      "真实协作"
+    ],
+    "suitable_for": [
+      "需要高频交流但能自我筛选的人",
+      "愿意补充反例的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "期待群里直接给标准答案的人",
+      "容易被单一案例带偏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "medium",
+    "connection_intensity": "medium",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微主观偏差"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说失败复盘里最重要的约束条件吗",
+      "如果我想参与长期共创，应该先避免哪些误判",
+      "你发过的组织文化复盘内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_ltc_005",
+      "grp_ltc_006"
+    ],
+    "authored_content_ids": [
+      "cnt_ltc_005_b",
+      "cnt_ltc_006_a",
+      "cnt_ltc_006_b"
+    ]
+  },
+  {
+    "id": "person_ltc_005",
+    "display_name": "项目同伴 A",
+    "scene": "long_term_community_matching",
+    "role_type": "活跃组织者",
+    "bio": "项目同伴 A长期活跃在长期共创场景，常围绕项目共创记录和长期主义判断笔记输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "项目共创记录",
+      "长期主义判断笔记",
+      "项目进度闲聊",
+      "生活状态同步"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "项目进度闲聊",
+      "生活状态同步",
+      "能复盘失败"
+    ],
+    "suitable_for": [
+      "需要高频交流但能自我筛选的人",
+      "愿意补充反例的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "期待群里直接给标准答案的人",
+      "容易被单一案例带偏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "low",
+    "connection_intensity": "medium",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微主观偏差"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说项目共创记录里最重要的约束条件吗",
+      "如果我想参与长期共创，应该先避免哪些误判",
+      "你发过的长期主义判断笔记内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_ltc_007",
+      "grp_ltc_008"
+    ],
+    "authored_content_ids": [
+      "cnt_ltc_007_a",
+      "cnt_ltc_007_b",
+      "cnt_ltc_008_a"
+    ]
+  },
+  {
+    "id": "person_ltc_006",
+    "display_name": "读书打卡老成员",
+    "scene": "long_term_community_matching",
+    "role_type": "日常分享者",
+    "bio": "读书打卡老成员长期活跃在长期共创场景，常围绕长期主义判断笔记和成员长文输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "长期主义判断笔记",
+      "成员长文",
+      "生活状态同步",
+      "周末线下茶局"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "生活状态同步",
+      "周末线下茶局",
+      "尊重新人"
+    ],
+    "suitable_for": [
+      "能主动核验信息的人",
+      "愿意从杂乱讨论里提取线索的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "容易被情绪影响决策的人",
+      "需要严格审核环境的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "low",
+    "connection_intensity": "medium",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "信息质量不均"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说长期主义判断笔记里最重要的约束条件吗",
+      "如果我想参与长期共创，应该先避免哪些误判",
+      "你发过的成员长文内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_ltc_008",
+      "grp_ltc_009"
+    ],
+    "authored_content_ids": [
+      "cnt_ltc_008_b",
+      "cnt_ltc_009_a",
+      "cnt_ltc_009_b"
+    ]
+  },
+  {
+    "id": "person_ltc_007",
+    "display_name": "资源热心人",
+    "scene": "long_term_community_matching",
+    "role_type": "风险型活跃账号",
+    "bio": "资源热心人长期活跃在长期共创场景，常围绕失败复盘和组织文化复盘输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "失败复盘",
+      "组织文化复盘",
+      "日常读书打卡",
+      "项目进度闲聊"
+    ],
+    "content_style_tags": [
+      "信息密度高",
+      "情绪明显",
+      "需二次核验"
+    ],
+    "values_tags": [
+      "日常读书打卡",
+      "项目进度闲聊",
+      "长期主义"
+    ],
+    "suitable_for": [
+      "具备强筛选能力的用户",
+      "需要观察风险样本的用户"
+    ],
+    "unsuitable_for": [
+      "正在做关键决策的用户",
+      "期待稳定信任关系的用户"
+    ],
+    "interaction_boundary": [
+      "仅建议公开评论区互动",
+      "不建议直接采信其资源承诺",
+      "需要自行核验信息"
+    ],
+    "privacy_level": "low",
+    "connection_intensity": "weak",
+    "credibility_signals": [
+      "有部分亲历经验",
+      "能暴露场景风险"
+    ],
+    "risk_flags": [
+      "广告混入",
+      "情绪带节奏",
+      "信息需二次核验",
+      "不建议主动推荐"
+    ],
+    "agent_personality": "热闹、输出快，但会主动提醒用户先核验信息。",
+    "sample_questions_to_ask": [
+      "你能详细说说失败复盘里最重要的约束条件吗",
+      "如果我想参与长期共创，应该先避免哪些误判",
+      "你发过的组织文化复盘内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_ltc_010",
+      "grp_ltc_011"
+    ],
+    "authored_content_ids": [
+      "cnt_ltc_010_a",
+      "cnt_ltc_010_b",
+      "cnt_ltc_011_a"
+    ]
+  },
+  {
+    "id": "person_ltc_008",
+    "display_name": "人脉快转发",
+    "scene": "long_term_community_matching",
+    "role_type": "低质量样本账号",
+    "bio": "人脉快转发长期活跃在长期共创场景，常围绕组织文化复盘和项目共创记录输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "组织文化复盘",
+      "项目共创记录",
+      "项目进度闲聊",
+      "生活状态同步"
+    ],
+    "content_style_tags": [
+      "信息密度高",
+      "情绪明显",
+      "需二次核验"
+    ],
+    "values_tags": [
+      "项目进度闲聊",
+      "生活状态同步",
+      "思想密度高"
+    ],
+    "suitable_for": [
+      "具备强筛选能力的用户",
+      "需要观察风险样本的用户"
+    ],
+    "unsuitable_for": [
+      "正在做关键决策的用户",
+      "期待稳定信任关系的用户"
+    ],
+    "interaction_boundary": [
+      "仅建议公开评论区互动",
+      "不建议直接采信其资源承诺",
+      "需要自行核验信息"
+    ],
+    "privacy_level": "low",
+    "connection_intensity": "weak",
+    "credibility_signals": [
+      "有部分亲历经验",
+      "能暴露场景风险"
+    ],
+    "risk_flags": [
+      "广告混入",
+      "情绪带节奏",
+      "信息需二次核验",
+      "不建议主动推荐"
+    ],
+    "agent_personality": "热闹、输出快，但会主动提醒用户先核验信息。",
+    "sample_questions_to_ask": [
+      "你能详细说说组织文化复盘里最重要的约束条件吗",
+      "如果我想参与长期共创，应该先避免哪些误判",
+      "你发过的项目共创记录内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_ltc_011",
+      "grp_ltc_012"
+    ],
+    "authored_content_ids": [
+      "cnt_ltc_011_b",
+      "cnt_ltc_012_a",
+      "cnt_ltc_012_b"
+    ]
+  },
+  {
+    "id": "person_food_001",
+    "display_name": "学院路老饕",
+    "scene": "food_group_matching",
+    "role_type": "高信内容贡献者",
+    "bio": "学院路老饕长期活跃在学院路美食场景，常围绕学院路隐藏美食图文和骑车探店记录输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "学院路隐藏美食图文",
+      "骑车探店记录",
+      "下课后吃饭",
+      "宿舍夜宵"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "下课后吃饭",
+      "宿舍夜宵",
+      "价格透明"
+    ],
+    "suitable_for": [
+      "愿意提供真实细节的人",
+      "能接受慢节奏讨论的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "只想快速薅资源的人",
+      "习惯刷屏或带节奏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "medium",
+    "connection_intensity": "strong",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微信息过载"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说学院路隐藏美食图文里最重要的约束条件吗",
+      "如果我想参与学院路美食，应该先避免哪些误判",
+      "你发过的骑车探店记录内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_food_001",
+      "grp_food_002"
+    ],
+    "authored_content_ids": [
+      "cnt_food_001_a",
+      "cnt_food_001_b",
+      "cnt_food_002_a"
+    ]
+  },
+  {
+    "id": "person_food_002",
+    "display_name": "五道口饭扫雷",
+    "scene": "food_group_matching",
+    "role_type": "高信 KOL",
+    "bio": "五道口饭扫雷长期活跃在学院路美食场景，常围绕骑车探店记录和饭搭子拼菜帖输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "骑车探店记录",
+      "饭搭子拼菜帖",
+      "宿舍夜宵",
+      "周末骑车探店"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "宿舍夜宵",
+      "周末骑车探店",
+      "口味描述具体"
+    ],
+    "suitable_for": [
+      "愿意提供真实细节的人",
+      "能接受慢节奏讨论的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "只想快速薅资源的人",
+      "习惯刷屏或带节奏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "medium",
+    "connection_intensity": "strong",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微信息过载"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说骑车探店记录里最重要的约束条件吗",
+      "如果我想参与学院路美食，应该先避免哪些误判",
+      "你发过的饭搭子拼菜帖内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_food_002",
+      "grp_food_003"
+    ],
+    "authored_content_ids": [
+      "cnt_food_002_b",
+      "cnt_food_003_a",
+      "cnt_food_003_b"
+    ]
+  },
+  {
+    "id": "person_food_003",
+    "display_name": "骑车探店阿北",
+    "scene": "food_group_matching",
+    "role_type": "资深过来人",
+    "bio": "骑车探店阿北长期活跃在学院路美食场景，常围绕老饕真实反馈和广告风险内容输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "老饕真实反馈",
+      "广告风险内容",
+      "食堂外卖比较",
+      "下课后吃饭"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "食堂外卖比较",
+      "下课后吃饭",
+      "拼饭友好"
+    ],
+    "suitable_for": [
+      "愿意提供真实细节的人",
+      "能接受慢节奏讨论的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "只想快速薅资源的人",
+      "习惯刷屏或带节奏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "medium",
+    "connection_intensity": "medium",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微信息过载"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说老饕真实反馈里最重要的约束条件吗",
+      "如果我想参与学院路美食，应该先避免哪些误判",
+      "你发过的广告风险内容内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_food_004",
+      "grp_food_005"
+    ],
+    "authored_content_ids": [
+      "cnt_food_004_a",
+      "cnt_food_004_b",
+      "cnt_food_005_a"
+    ]
+  },
+  {
+    "id": "person_food_004",
+    "display_name": "麻酱拌面观察员",
+    "scene": "food_group_matching",
+    "role_type": "老成员答疑者",
+    "bio": "麻酱拌面观察员长期活跃在学院路美食场景，常围绕广告风险内容和学院路隐藏美食图文输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "广告风险内容",
+      "学院路隐藏美食图文",
+      "下课后吃饭",
+      "宿舍夜宵"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "下课后吃饭",
+      "宿舍夜宵",
+      "地理位置清楚"
+    ],
+    "suitable_for": [
+      "需要高频交流但能自我筛选的人",
+      "愿意补充反例的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "期待群里直接给标准答案的人",
+      "容易被单一案例带偏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "medium",
+    "connection_intensity": "medium",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微主观偏差"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说广告风险内容里最重要的约束条件吗",
+      "如果我想参与学院路美食，应该先避免哪些误判",
+      "你发过的学院路隐藏美食图文内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_food_005",
+      "grp_food_006"
+    ],
+    "authored_content_ids": [
+      "cnt_food_005_b",
+      "cnt_food_006_a",
+      "cnt_food_006_b"
+    ]
+  },
+  {
+    "id": "person_food_005",
+    "display_name": "夜宵搭子队长",
+    "scene": "food_group_matching",
+    "role_type": "活跃组织者",
+    "bio": "夜宵搭子队长长期活跃在学院路美食场景，常围绕骑车探店记录和饭搭子拼菜帖输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "骑车探店记录",
+      "饭搭子拼菜帖",
+      "周末骑车探店",
+      "食堂外卖比较"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "周末骑车探店",
+      "食堂外卖比较",
+      "新店尝鲜"
+    ],
+    "suitable_for": [
+      "需要高频交流但能自我筛选的人",
+      "愿意补充反例的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "期待群里直接给标准答案的人",
+      "容易被单一案例带偏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "low",
+    "connection_intensity": "medium",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微主观偏差"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说骑车探店记录里最重要的约束条件吗",
+      "如果我想参与学院路美食，应该先避免哪些误判",
+      "你发过的饭搭子拼菜帖内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_food_007",
+      "grp_food_008"
+    ],
+    "authored_content_ids": [
+      "cnt_food_007_a",
+      "cnt_food_007_b",
+      "cnt_food_008_a"
+    ]
+  },
+  {
+    "id": "person_food_006",
+    "display_name": "外卖横评小号",
+    "scene": "food_group_matching",
+    "role_type": "日常分享者",
+    "bio": "外卖横评小号长期活跃在学院路美食场景，常围绕饭搭子拼菜帖和老饕真实反馈输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "饭搭子拼菜帖",
+      "老饕真实反馈",
+      "食堂外卖比较",
+      "下课后吃饭"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "食堂外卖比较",
+      "下课后吃饭",
+      "真实图片"
+    ],
+    "suitable_for": [
+      "能主动核验信息的人",
+      "愿意从杂乱讨论里提取线索的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "容易被情绪影响决策的人",
+      "需要严格审核环境的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "low",
+    "connection_intensity": "medium",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "信息质量不均"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说饭搭子拼菜帖里最重要的约束条件吗",
+      "如果我想参与学院路美食，应该先避免哪些误判",
+      "你发过的老饕真实反馈内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_food_008",
+      "grp_food_009"
+    ],
+    "authored_content_ids": [
+      "cnt_food_008_b",
+      "cnt_food_009_a",
+      "cnt_food_009_b"
+    ]
+  },
+  {
+    "id": "person_food_007",
+    "display_name": "优惠券快报",
+    "scene": "food_group_matching",
+    "role_type": "风险型活跃账号",
+    "bio": "优惠券快报长期活跃在学院路美食场景，常围绕广告风险内容和学院路隐藏美食图文输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "广告风险内容",
+      "学院路隐藏美食图文",
+      "宿舍夜宵",
+      "周末骑车探店"
+    ],
+    "content_style_tags": [
+      "信息密度高",
+      "情绪明显",
+      "需二次核验"
+    ],
+    "values_tags": [
+      "宿舍夜宵",
+      "周末骑车探店",
+      "口味描述具体"
+    ],
+    "suitable_for": [
+      "具备强筛选能力的用户",
+      "需要观察风险样本的用户"
+    ],
+    "unsuitable_for": [
+      "正在做关键决策的用户",
+      "期待稳定信任关系的用户"
+    ],
+    "interaction_boundary": [
+      "仅建议公开评论区互动",
+      "不建议直接采信其资源承诺",
+      "需要自行核验信息"
+    ],
+    "privacy_level": "low",
+    "connection_intensity": "weak",
+    "credibility_signals": [
+      "有部分亲历经验",
+      "能暴露场景风险"
+    ],
+    "risk_flags": [
+      "广告混入",
+      "情绪带节奏",
+      "信息需二次核验",
+      "不建议主动推荐"
+    ],
+    "agent_personality": "热闹、输出快，但会主动提醒用户先核验信息。",
+    "sample_questions_to_ask": [
+      "你能详细说说广告风险内容里最重要的约束条件吗",
+      "如果我想参与学院路美食，应该先避免哪些误判",
+      "你发过的学院路隐藏美食图文内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_food_010",
+      "grp_food_011"
+    ],
+    "authored_content_ids": [
+      "cnt_food_010_a",
+      "cnt_food_010_b",
+      "cnt_food_011_a"
+    ]
+  },
+  {
+    "id": "person_food_008",
+    "display_name": "商单探店号",
+    "scene": "food_group_matching",
+    "role_type": "低质量样本账号",
+    "bio": "商单探店号长期活跃在学院路美食场景，常围绕学院路隐藏美食图文和骑车探店记录输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "学院路隐藏美食图文",
+      "骑车探店记录",
+      "周末骑车探店",
+      "食堂外卖比较"
+    ],
+    "content_style_tags": [
+      "信息密度高",
+      "情绪明显",
+      "需二次核验"
+    ],
+    "values_tags": [
+      "周末骑车探店",
+      "食堂外卖比较",
+      "外卖避雷"
+    ],
+    "suitable_for": [
+      "具备强筛选能力的用户",
+      "需要观察风险样本的用户"
+    ],
+    "unsuitable_for": [
+      "正在做关键决策的用户",
+      "期待稳定信任关系的用户"
+    ],
+    "interaction_boundary": [
+      "仅建议公开评论区互动",
+      "不建议直接采信其资源承诺",
+      "需要自行核验信息"
+    ],
+    "privacy_level": "low",
+    "connection_intensity": "weak",
+    "credibility_signals": [
+      "有部分亲历经验",
+      "能暴露场景风险"
+    ],
+    "risk_flags": [
+      "广告混入",
+      "情绪带节奏",
+      "信息需二次核验",
+      "不建议主动推荐"
+    ],
+    "agent_personality": "热闹、输出快，但会主动提醒用户先核验信息。",
+    "sample_questions_to_ask": [
+      "你能详细说说学院路隐藏美食图文里最重要的约束条件吗",
+      "如果我想参与学院路美食，应该先避免哪些误判",
+      "你发过的骑车探店记录内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_food_011",
+      "grp_food_012"
+    ],
+    "authored_content_ids": [
+      "cnt_food_011_b",
+      "cnt_food_012_a",
+      "cnt_food_012_b"
+    ]
+  },
+  {
+    "id": "person_pss_001",
+    "display_name": "人间小事观察员",
+    "scene": "philosophy_social_science_discussion_matching",
+    "role_type": "高信内容贡献者",
+    "bio": "人间小事观察员长期活跃在哲学社科讨论场景，常围绕细微生活观察和个人经历的社会学解释输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "细微生活观察",
+      "个人经历的社会学解释",
+      "通勤观察",
+      "合租经历"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "通勤观察",
+      "合租经历",
+      "反常识分析"
+    ],
+    "suitable_for": [
+      "愿意提供真实细节的人",
+      "能接受慢节奏讨论的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "只想快速薅资源的人",
+      "习惯刷屏或带节奏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "medium",
+    "connection_intensity": "strong",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微信息过载"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说细微生活观察里最重要的约束条件吗",
+      "如果我想参与哲学社科讨论，应该先避免哪些误判",
+      "你发过的个人经历的社会学解释内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_pss_001",
+      "grp_pss_002"
+    ],
+    "authored_content_ids": [
+      "cnt_pss_001_a",
+      "cnt_pss_001_b",
+      "cnt_pss_002_a"
+    ]
+  },
+  {
+    "id": "person_pss_002",
+    "display_name": "合租社会学",
+    "scene": "philosophy_social_science_discussion_matching",
+    "role_type": "高信 KOL",
+    "bio": "合租社会学长期活跃在哲学社科讨论场景，常围绕个人经历的社会学解释和反常识日常分析输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "个人经历的社会学解释",
+      "反常识日常分析",
+      "合租经历",
+      "校园见闻"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "合租经历",
+      "校园见闻",
+      "温和反驳"
+    ],
+    "suitable_for": [
+      "愿意提供真实细节的人",
+      "能接受慢节奏讨论的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "只想快速薅资源的人",
+      "习惯刷屏或带节奏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "medium",
+    "connection_intensity": "strong",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微信息过载"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说个人经历的社会学解释里最重要的约束条件吗",
+      "如果我想参与哲学社科讨论，应该先避免哪些误判",
+      "你发过的反常识日常分析内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_pss_002",
+      "grp_pss_003"
+    ],
+    "authored_content_ids": [
+      "cnt_pss_002_b",
+      "cnt_pss_003_a",
+      "cnt_pss_003_b"
+    ]
+  },
+  {
+    "id": "person_pss_003",
+    "display_name": "反常识笔记",
+    "scene": "philosophy_social_science_discussion_matching",
+    "role_type": "资深过来人",
+    "bio": "反常识笔记长期活跃在哲学社科讨论场景，常围绕高质量评论串和应过滤的宏大空谈内容输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "高质量评论串",
+      "应过滤的宏大空谈内容",
+      "饭桌闲聊",
+      "通勤观察"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "饭桌闲聊",
+      "通勤观察",
+      "尊重复杂性"
+    ],
+    "suitable_for": [
+      "愿意提供真实细节的人",
+      "能接受慢节奏讨论的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "只想快速薅资源的人",
+      "习惯刷屏或带节奏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "medium",
+    "connection_intensity": "medium",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微信息过载"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说高质量评论串里最重要的约束条件吗",
+      "如果我想参与哲学社科讨论，应该先避免哪些误判",
+      "你发过的应过滤的宏大空谈内容内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_pss_004",
+      "grp_pss_005"
+    ],
+    "authored_content_ids": [
+      "cnt_pss_004_a",
+      "cnt_pss_004_b",
+      "cnt_pss_005_a"
+    ]
+  },
+  {
+    "id": "person_pss_004",
+    "display_name": "温和反驳练习者",
+    "scene": "philosophy_social_science_discussion_matching",
+    "role_type": "老成员答疑者",
+    "bio": "温和反驳练习者长期活跃在哲学社科讨论场景，常围绕应过滤的宏大空谈内容和细微生活观察输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "应过滤的宏大空谈内容",
+      "细微生活观察",
+      "通勤观察",
+      "合租经历"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "通勤观察",
+      "合租经历",
+      "有主体性"
+    ],
+    "suitable_for": [
+      "需要高频交流但能自我筛选的人",
+      "愿意补充反例的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "期待群里直接给标准答案的人",
+      "容易被单一案例带偏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "medium",
+    "connection_intensity": "medium",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微主观偏差"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说应过滤的宏大空谈内容里最重要的约束条件吗",
+      "如果我想参与哲学社科讨论，应该先避免哪些误判",
+      "你发过的细微生活观察内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_pss_005",
+      "grp_pss_006"
+    ],
+    "authored_content_ids": [
+      "cnt_pss_005_b",
+      "cnt_pss_006_a",
+      "cnt_pss_006_b"
+    ]
+  },
+  {
+    "id": "person_pss_005",
+    "display_name": "饭桌讨论整理员",
+    "scene": "philosophy_social_science_discussion_matching",
+    "role_type": "活跃组织者",
+    "bio": "饭桌讨论整理员长期活跃在哲学社科讨论场景，常围绕个人经历的社会学解释和反常识日常分析输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "个人经历的社会学解释",
+      "反常识日常分析",
+      "校园见闻",
+      "饭桌闲聊"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "校园见闻",
+      "饭桌闲聊",
+      "个人经验扎实"
+    ],
+    "suitable_for": [
+      "需要高频交流但能自我筛选的人",
+      "愿意补充反例的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "期待群里直接给标准答案的人",
+      "容易被单一案例带偏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "low",
+    "connection_intensity": "medium",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微主观偏差"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说个人经历的社会学解释里最重要的约束条件吗",
+      "如果我想参与哲学社科讨论，应该先避免哪些误判",
+      "你发过的反常识日常分析内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_pss_007",
+      "grp_pss_008"
+    ],
+    "authored_content_ids": [
+      "cnt_pss_007_a",
+      "cnt_pss_007_b",
+      "cnt_pss_008_a"
+    ]
+  },
+  {
+    "id": "person_pss_006",
+    "display_name": "校园细节派",
+    "scene": "philosophy_social_science_discussion_matching",
+    "role_type": "日常分享者",
+    "bio": "校园细节派长期活跃在哲学社科讨论场景，常围绕反常识日常分析和高质量评论串输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "反常识日常分析",
+      "高质量评论串",
+      "饭桌闲聊",
+      "通勤观察"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "饭桌闲聊",
+      "通勤观察",
+      "细节观察敏锐"
+    ],
+    "suitable_for": [
+      "能主动核验信息的人",
+      "愿意从杂乱讨论里提取线索的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "容易被情绪影响决策的人",
+      "需要严格审核环境的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "low",
+    "connection_intensity": "medium",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "信息质量不均"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说反常识日常分析里最重要的约束条件吗",
+      "如果我想参与哲学社科讨论，应该先避免哪些误判",
+      "你发过的高质量评论串内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_pss_008",
+      "grp_pss_009"
+    ],
+    "authored_content_ids": [
+      "cnt_pss_008_b",
+      "cnt_pss_009_a",
+      "cnt_pss_009_b"
+    ]
+  },
+  {
+    "id": "person_pss_007",
+    "display_name": "立场快输出",
+    "scene": "philosophy_social_science_discussion_matching",
+    "role_type": "风险型活跃账号",
+    "bio": "立场快输出长期活跃在哲学社科讨论场景，常围绕应过滤的宏大空谈内容和细微生活观察输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "应过滤的宏大空谈内容",
+      "细微生活观察",
+      "合租经历",
+      "校园见闻"
+    ],
+    "content_style_tags": [
+      "信息密度高",
+      "情绪明显",
+      "需二次核验"
+    ],
+    "values_tags": [
+      "合租经历",
+      "校园见闻",
+      "温和反驳"
+    ],
+    "suitable_for": [
+      "具备强筛选能力的用户",
+      "需要观察风险样本的用户"
+    ],
+    "unsuitable_for": [
+      "正在做关键决策的用户",
+      "期待稳定信任关系的用户"
+    ],
+    "interaction_boundary": [
+      "仅建议公开评论区互动",
+      "不建议直接采信其资源承诺",
+      "需要自行核验信息"
+    ],
+    "privacy_level": "low",
+    "connection_intensity": "weak",
+    "credibility_signals": [
+      "有部分亲历经验",
+      "能暴露场景风险"
+    ],
+    "risk_flags": [
+      "广告混入",
+      "情绪带节奏",
+      "信息需二次核验",
+      "不建议主动推荐"
+    ],
+    "agent_personality": "热闹、输出快，但会主动提醒用户先核验信息。",
+    "sample_questions_to_ask": [
+      "你能详细说说应过滤的宏大空谈内容里最重要的约束条件吗",
+      "如果我想参与哲学社科讨论，应该先避免哪些误判",
+      "你发过的细微生活观察内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_pss_010",
+      "grp_pss_011"
+    ],
+    "authored_content_ids": [
+      "cnt_pss_010_a",
+      "cnt_pss_010_b",
+      "cnt_pss_011_a"
+    ]
+  },
+  {
+    "id": "person_pss_008",
+    "display_name": "概念堆砌号",
+    "scene": "philosophy_social_science_discussion_matching",
+    "role_type": "低质量样本账号",
+    "bio": "概念堆砌号长期活跃在哲学社科讨论场景，常围绕细微生活观察和个人经历的社会学解释输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "细微生活观察",
+      "个人经历的社会学解释",
+      "校园见闻",
+      "饭桌闲聊"
+    ],
+    "content_style_tags": [
+      "信息密度高",
+      "情绪明显",
+      "需二次核验"
+    ],
+    "values_tags": [
+      "校园见闻",
+      "饭桌闲聊",
+      "解释力强"
+    ],
+    "suitable_for": [
+      "具备强筛选能力的用户",
+      "需要观察风险样本的用户"
+    ],
+    "unsuitable_for": [
+      "正在做关键决策的用户",
+      "期待稳定信任关系的用户"
+    ],
+    "interaction_boundary": [
+      "仅建议公开评论区互动",
+      "不建议直接采信其资源承诺",
+      "需要自行核验信息"
+    ],
+    "privacy_level": "low",
+    "connection_intensity": "weak",
+    "credibility_signals": [
+      "有部分亲历经验",
+      "能暴露场景风险"
+    ],
+    "risk_flags": [
+      "广告混入",
+      "情绪带节奏",
+      "信息需二次核验",
+      "不建议主动推荐"
+    ],
+    "agent_personality": "热闹、输出快，但会主动提醒用户先核验信息。",
+    "sample_questions_to_ask": [
+      "你能详细说说细微生活观察里最重要的约束条件吗",
+      "如果我想参与哲学社科讨论，应该先避免哪些误判",
+      "你发过的个人经历的社会学解释内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_pss_011",
+      "grp_pss_012"
+    ],
+    "authored_content_ids": [
+      "cnt_pss_011_b",
+      "cnt_pss_012_a",
+      "cnt_pss_012_b"
+    ]
+  },
+  {
+    "id": "person_career_001",
+    "display_name": "生化转岗三年",
+    "scene": "career_transition_matching",
+    "role_type": "高信内容贡献者",
+    "bio": "生化转岗三年长期活跃在职业转型场景，常围绕转行 case 复盘和行业真实工作体验输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "转行 case 复盘",
+      "行业真实工作体验",
+      "秋招闲聊",
+      "实习日常"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "秋招闲聊",
+      "实习日常",
+      "失败避坑"
+    ],
+    "suitable_for": [
+      "愿意提供真实细节的人",
+      "能接受慢节奏讨论的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "只想快速薅资源的人",
+      "习惯刷屏或带节奏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "medium",
+    "connection_intensity": "strong",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微信息过载"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说转行 case 复盘里最重要的约束条件吗",
+      "如果我想参与职业转型，应该先避免哪些误判",
+      "你发过的行业真实工作体验内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_career_001",
+      "grp_career_002"
+    ],
+    "authored_content_ids": [
+      "cnt_career_001_a",
+      "cnt_career_001_b",
+      "cnt_career_002_a"
+    ]
+  },
+  {
+    "id": "person_career_002",
+    "display_name": "行业一周记录员",
+    "scene": "career_transition_matching",
+    "role_type": "高信 KOL",
+    "bio": "行业一周记录员长期活跃在职业转型场景，常围绕行业真实工作体验和能力迁移分析输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "行业真实工作体验",
+      "能力迁移分析",
+      "实习日常",
+      "Coffee chat 记录"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "实习日常",
+      "Coffee chat 记录",
+      "岗位日常具体"
+    ],
+    "suitable_for": [
+      "愿意提供真实细节的人",
+      "能接受慢节奏讨论的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "只想快速薅资源的人",
+      "习惯刷屏或带节奏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "medium",
+    "connection_intensity": "strong",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微信息过载"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说行业真实工作体验里最重要的约束条件吗",
+      "如果我想参与职业转型，应该先避免哪些误判",
+      "你发过的能力迁移分析内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_career_002",
+      "grp_career_003"
+    ],
+    "authored_content_ids": [
+      "cnt_career_002_b",
+      "cnt_career_003_a",
+      "cnt_career_003_b"
+    ]
+  },
+  {
+    "id": "person_career_003",
+    "display_name": "低复利逃生样本",
+    "scene": "career_transition_matching",
+    "role_type": "资深过来人",
+    "bio": "低复利逃生样本长期活跃在职业转型场景，常围绕失败避坑和应过滤的卖课/焦虑内容输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "失败避坑",
+      "应过滤的卖课/焦虑内容",
+      "简历互看",
+      "秋招闲聊"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "简历互看",
+      "秋招闲聊",
+      "资源禀赋匹配"
+    ],
+    "suitable_for": [
+      "愿意提供真实细节的人",
+      "能接受慢节奏讨论的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "只想快速薅资源的人",
+      "习惯刷屏或带节奏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "medium",
+    "connection_intensity": "medium",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微信息过载"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说失败避坑里最重要的约束条件吗",
+      "如果我想参与职业转型，应该先避免哪些误判",
+      "你发过的应过滤的卖课/焦虑内容内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_career_004",
+      "grp_career_005"
+    ],
+    "authored_content_ids": [
+      "cnt_career_004_a",
+      "cnt_career_004_b",
+      "cnt_career_005_a"
+    ]
+  },
+  {
+    "id": "person_career_004",
+    "display_name": "CoffeeChat学长",
+    "scene": "career_transition_matching",
+    "role_type": "老成员答疑者",
+    "bio": "CoffeeChat学长长期活跃在职业转型场景，常围绕应过滤的卖课/焦虑内容和转行 case 复盘输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "应过滤的卖课/焦虑内容",
+      "转行 case 复盘",
+      "秋招闲聊",
+      "实习日常"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "秋招闲聊",
+      "实习日常",
+      "不制造焦虑"
+    ],
+    "suitable_for": [
+      "需要高频交流但能自我筛选的人",
+      "愿意补充反例的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "期待群里直接给标准答案的人",
+      "容易被单一案例带偏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "medium",
+    "connection_intensity": "medium",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微主观偏差"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说应过滤的卖课/焦虑内容里最重要的约束条件吗",
+      "如果我想参与职业转型，应该先避免哪些误判",
+      "你发过的转行 case 复盘内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_career_005",
+      "grp_career_006"
+    ],
+    "authored_content_ids": [
+      "cnt_career_005_b",
+      "cnt_career_006_a",
+      "cnt_career_006_b"
+    ]
+  },
+  {
+    "id": "person_career_005",
+    "display_name": "简历互看学姐",
+    "scene": "career_transition_matching",
+    "role_type": "活跃组织者",
+    "bio": "简历互看学姐长期活跃在职业转型场景，常围绕行业真实工作体验和能力迁移分析输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "行业真实工作体验",
+      "能力迁移分析",
+      "Coffee chat 记录",
+      "简历互看"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "Coffee chat 记录",
+      "简历互看",
+      "行业细节充分"
+    ],
+    "suitable_for": [
+      "需要高频交流但能自我筛选的人",
+      "愿意补充反例的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "期待群里直接给标准答案的人",
+      "容易被单一案例带偏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "low",
+    "connection_intensity": "medium",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微主观偏差"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说行业真实工作体验里最重要的约束条件吗",
+      "如果我想参与职业转型，应该先避免哪些误判",
+      "你发过的能力迁移分析内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_career_007",
+      "grp_career_008"
+    ],
+    "authored_content_ids": [
+      "cnt_career_007_a",
+      "cnt_career_007_b",
+      "cnt_career_008_a"
+    ]
+  },
+  {
+    "id": "person_career_006",
+    "display_name": "实习日常小记",
+    "scene": "career_transition_matching",
+    "role_type": "日常分享者",
+    "bio": "实习日常小记长期活跃在职业转型场景，常围绕能力迁移分析和失败避坑输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "能力迁移分析",
+      "失败避坑",
+      "简历互看",
+      "秋招闲聊"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "简历互看",
+      "秋招闲聊",
+      "能力迁移清楚"
+    ],
+    "suitable_for": [
+      "能主动核验信息的人",
+      "愿意从杂乱讨论里提取线索的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "容易被情绪影响决策的人",
+      "需要严格审核环境的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "low",
+    "connection_intensity": "medium",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "信息质量不均"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说能力迁移分析里最重要的约束条件吗",
+      "如果我想参与职业转型，应该先避免哪些误判",
+      "你发过的失败避坑内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_career_008",
+      "grp_career_009"
+    ],
+    "authored_content_ids": [
+      "cnt_career_008_b",
+      "cnt_career_009_a",
+      "cnt_career_009_b"
+    ]
+  },
+  {
+    "id": "person_career_007",
+    "display_name": "内推资源号",
+    "scene": "career_transition_matching",
+    "role_type": "风险型活跃账号",
+    "bio": "内推资源号长期活跃在职业转型场景，常围绕应过滤的卖课/焦虑内容和转行 case 复盘输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "应过滤的卖课/焦虑内容",
+      "转行 case 复盘",
+      "实习日常",
+      "Coffee chat 记录"
+    ],
+    "content_style_tags": [
+      "信息密度高",
+      "情绪明显",
+      "需二次核验"
+    ],
+    "values_tags": [
+      "实习日常",
+      "Coffee chat 记录",
+      "岗位日常具体"
+    ],
+    "suitable_for": [
+      "具备强筛选能力的用户",
+      "需要观察风险样本的用户"
+    ],
+    "unsuitable_for": [
+      "正在做关键决策的用户",
+      "期待稳定信任关系的用户"
+    ],
+    "interaction_boundary": [
+      "仅建议公开评论区互动",
+      "不建议直接采信其资源承诺",
+      "需要自行核验信息"
+    ],
+    "privacy_level": "low",
+    "connection_intensity": "weak",
+    "credibility_signals": [
+      "有部分亲历经验",
+      "能暴露场景风险"
+    ],
+    "risk_flags": [
+      "广告混入",
+      "情绪带节奏",
+      "信息需二次核验",
+      "不建议主动推荐"
+    ],
+    "agent_personality": "热闹、输出快，但会主动提醒用户先核验信息。",
+    "sample_questions_to_ask": [
+      "你能详细说说应过滤的卖课/焦虑内容里最重要的约束条件吗",
+      "如果我想参与职业转型，应该先避免哪些误判",
+      "你发过的转行 case 复盘内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_career_010",
+      "grp_career_011"
+    ],
+    "authored_content_ids": [
+      "cnt_career_010_a",
+      "cnt_career_010_b",
+      "cnt_career_011_a"
+    ]
+  },
+  {
+    "id": "person_career_008",
+    "display_name": "转码捷径号",
+    "scene": "career_transition_matching",
+    "role_type": "低质量样本账号",
+    "bio": "转码捷径号长期活跃在职业转型场景，常围绕转行 case 复盘和行业真实工作体验输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "转行 case 复盘",
+      "行业真实工作体验",
+      "Coffee chat 记录",
+      "简历互看"
+    ],
+    "content_style_tags": [
+      "信息密度高",
+      "情绪明显",
+      "需二次核验"
+    ],
+    "values_tags": [
+      "Coffee chat 记录",
+      "简历互看",
+      "薪资区间透明"
+    ],
+    "suitable_for": [
+      "具备强筛选能力的用户",
+      "需要观察风险样本的用户"
+    ],
+    "unsuitable_for": [
+      "正在做关键决策的用户",
+      "期待稳定信任关系的用户"
+    ],
+    "interaction_boundary": [
+      "仅建议公开评论区互动",
+      "不建议直接采信其资源承诺",
+      "需要自行核验信息"
+    ],
+    "privacy_level": "low",
+    "connection_intensity": "weak",
+    "credibility_signals": [
+      "有部分亲历经验",
+      "能暴露场景风险"
+    ],
+    "risk_flags": [
+      "广告混入",
+      "情绪带节奏",
+      "信息需二次核验",
+      "不建议主动推荐"
+    ],
+    "agent_personality": "热闹、输出快，但会主动提醒用户先核验信息。",
+    "sample_questions_to_ask": [
+      "你能详细说说转行 case 复盘里最重要的约束条件吗",
+      "如果我想参与职业转型，应该先避免哪些误判",
+      "你发过的行业真实工作体验内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_career_011",
+      "grp_career_012"
+    ],
+    "authored_content_ids": [
+      "cnt_career_011_b",
+      "cnt_career_012_a",
+      "cnt_career_012_b"
+    ]
+  },
+  {
+    "id": "person_startup_001",
+    "display_name": "半夜改Demo",
+    "scene": "startup_founder_matching",
+    "role_type": "高信内容贡献者",
+    "bio": "半夜改Demo长期活跃在创业交流场景，常围绕MVP 冷启动复盘和用户访谈记录输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "MVP 冷启动复盘",
+      "用户访谈记录",
+      "周末路演",
+      "深夜改 Demo"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "周末路演",
+      "深夜改 Demo",
+      "行动闭环"
+    ],
+    "suitable_for": [
+      "愿意提供真实细节的人",
+      "能接受慢节奏讨论的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "只想快速薅资源的人",
+      "习惯刷屏或带节奏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "medium",
+    "connection_intensity": "strong",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微信息过载"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说MVP 冷启动复盘里最重要的约束条件吗",
+      "如果我想参与创业交流，应该先避免哪些误判",
+      "你发过的用户访谈记录内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_startup_001",
+      "grp_startup_002"
+    ],
+    "authored_content_ids": [
+      "cnt_startup_001_a",
+      "cnt_startup_001_b",
+      "cnt_startup_002_a"
+    ]
+  },
+  {
+    "id": "person_startup_002",
+    "display_name": "冷启动阿程",
+    "scene": "startup_founder_matching",
+    "role_type": "高信 KOL",
+    "bio": "冷启动阿程长期活跃在创业交流场景，常围绕用户访谈记录和BP 互评输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "用户访谈记录",
+      "BP 互评",
+      "深夜改 Demo",
+      "咖啡馆聊产品"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "深夜改 Demo",
+      "咖啡馆聊产品",
+      "融资节奏清楚"
+    ],
+    "suitable_for": [
+      "愿意提供真实细节的人",
+      "能接受慢节奏讨论的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "只想快速薅资源的人",
+      "习惯刷屏或带节奏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "medium",
+    "connection_intensity": "strong",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微信息过载"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说用户访谈记录里最重要的约束条件吗",
+      "如果我想参与创业交流，应该先避免哪些误判",
+      "你发过的BP 互评内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_startup_002",
+      "grp_startup_003"
+    ],
+    "authored_content_ids": [
+      "cnt_startup_002_b",
+      "cnt_startup_003_a",
+      "cnt_startup_003_b"
+    ]
+  },
+  {
+    "id": "person_startup_003",
+    "display_name": "不互吹BP",
+    "scene": "startup_founder_matching",
+    "role_type": "资深过来人",
+    "bio": "不互吹BP长期活跃在创业交流场景，常围绕增长实验记录和团队分工和失败复盘输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "增长实验记录",
+      "团队分工和失败复盘",
+      "联合办公闲聊",
+      "周末路演"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "联合办公闲聊",
+      "周末路演",
+      "互相给有效反馈"
+    ],
+    "suitable_for": [
+      "愿意提供真实细节的人",
+      "能接受慢节奏讨论的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "只想快速薅资源的人",
+      "习惯刷屏或带节奏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "medium",
+    "connection_intensity": "medium",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微信息过载"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说增长实验记录里最重要的约束条件吗",
+      "如果我想参与创业交流，应该先避免哪些误判",
+      "你发过的团队分工和失败复盘内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_startup_004",
+      "grp_startup_005"
+    ],
+    "authored_content_ids": [
+      "cnt_startup_004_a",
+      "cnt_startup_004_b",
+      "cnt_startup_005_a"
+    ]
+  },
+  {
+    "id": "person_startup_004",
+    "display_name": "用户访谈小队长",
+    "scene": "startup_founder_matching",
+    "role_type": "老成员答疑者",
+    "bio": "用户访谈小队长长期活跃在创业交流场景，常围绕团队分工和失败复盘和MVP 冷启动复盘输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "团队分工和失败复盘",
+      "MVP 冷启动复盘",
+      "周末路演",
+      "深夜改 Demo"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "周末路演",
+      "深夜改 Demo",
+      "真实用户访谈"
+    ],
+    "suitable_for": [
+      "需要高频交流但能自我筛选的人",
+      "愿意补充反例的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "期待群里直接给标准答案的人",
+      "容易被单一案例带偏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "medium",
+    "connection_intensity": "medium",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微主观偏差"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说团队分工和失败复盘里最重要的约束条件吗",
+      "如果我想参与创业交流，应该先避免哪些误判",
+      "你发过的MVP 冷启动复盘内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_startup_005",
+      "grp_startup_006"
+    ],
+    "authored_content_ids": [
+      "cnt_startup_005_b",
+      "cnt_startup_006_a",
+      "cnt_startup_006_b"
+    ]
+  },
+  {
+    "id": "person_startup_005",
+    "display_name": "增长实验记录员",
+    "scene": "startup_founder_matching",
+    "role_type": "活跃组织者",
+    "bio": "增长实验记录员长期活跃在创业交流场景，常围绕用户访谈记录和BP 互评输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "用户访谈记录",
+      "BP 互评",
+      "咖啡馆聊产品",
+      "联合办公闲聊"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "咖啡馆聊产品",
+      "联合办公闲聊",
+      "增长实验"
+    ],
+    "suitable_for": [
+      "需要高频交流但能自我筛选的人",
+      "愿意补充反例的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "期待群里直接给标准答案的人",
+      "容易被单一案例带偏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "low",
+    "connection_intensity": "medium",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微主观偏差"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说用户访谈记录里最重要的约束条件吗",
+      "如果我想参与创业交流，应该先避免哪些误判",
+      "你发过的BP 互评内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_startup_007",
+      "grp_startup_008"
+    ],
+    "authored_content_ids": [
+      "cnt_startup_007_a",
+      "cnt_startup_007_b",
+      "cnt_startup_008_a"
+    ]
+  },
+  {
+    "id": "person_startup_006",
+    "display_name": "联办产品人",
+    "scene": "startup_founder_matching",
+    "role_type": "日常分享者",
+    "bio": "联办产品人长期活跃在创业交流场景，常围绕BP 互评和增长实验记录输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "BP 互评",
+      "增长实验记录",
+      "联合办公闲聊",
+      "周末路演"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "联合办公闲聊",
+      "周末路演",
+      "产品复盘"
+    ],
+    "suitable_for": [
+      "能主动核验信息的人",
+      "愿意从杂乱讨论里提取线索的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "容易被情绪影响决策的人",
+      "需要严格审核环境的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "low",
+    "connection_intensity": "medium",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "信息质量不均"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说BP 互评里最重要的约束条件吗",
+      "如果我想参与创业交流，应该先避免哪些误判",
+      "你发过的增长实验记录内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_startup_008",
+      "grp_startup_009"
+    ],
+    "authored_content_ids": [
+      "cnt_startup_008_b",
+      "cnt_startup_009_a",
+      "cnt_startup_009_b"
+    ]
+  },
+  {
+    "id": "person_startup_007",
+    "display_name": "融资快讯哥",
+    "scene": "startup_founder_matching",
+    "role_type": "风险型活跃账号",
+    "bio": "融资快讯哥长期活跃在创业交流场景，常围绕团队分工和失败复盘和MVP 冷启动复盘输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "团队分工和失败复盘",
+      "MVP 冷启动复盘",
+      "深夜改 Demo",
+      "咖啡馆聊产品"
+    ],
+    "content_style_tags": [
+      "信息密度高",
+      "情绪明显",
+      "需二次核验"
+    ],
+    "values_tags": [
+      "深夜改 Demo",
+      "咖啡馆聊产品",
+      "融资节奏清楚"
+    ],
+    "suitable_for": [
+      "具备强筛选能力的用户",
+      "需要观察风险样本的用户"
+    ],
+    "unsuitable_for": [
+      "正在做关键决策的用户",
+      "期待稳定信任关系的用户"
+    ],
+    "interaction_boundary": [
+      "仅建议公开评论区互动",
+      "不建议直接采信其资源承诺",
+      "需要自行核验信息"
+    ],
+    "privacy_level": "low",
+    "connection_intensity": "weak",
+    "credibility_signals": [
+      "有部分亲历经验",
+      "能暴露场景风险"
+    ],
+    "risk_flags": [
+      "广告混入",
+      "情绪带节奏",
+      "信息需二次核验",
+      "不建议主动推荐"
+    ],
+    "agent_personality": "热闹、输出快，但会主动提醒用户先核验信息。",
+    "sample_questions_to_ask": [
+      "你能详细说说团队分工和失败复盘里最重要的约束条件吗",
+      "如果我想参与创业交流，应该先避免哪些误判",
+      "你发过的MVP 冷启动复盘内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_startup_010",
+      "grp_startup_011"
+    ],
+    "authored_content_ids": [
+      "cnt_startup_010_a",
+      "cnt_startup_010_b",
+      "cnt_startup_011_a"
+    ]
+  },
+  {
+    "id": "person_startup_008",
+    "display_name": "资源局小号",
+    "scene": "startup_founder_matching",
+    "role_type": "低质量样本账号",
+    "bio": "资源局小号长期活跃在创业交流场景，常围绕MVP 冷启动复盘和用户访谈记录输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "MVP 冷启动复盘",
+      "用户访谈记录",
+      "咖啡馆聊产品",
+      "联合办公闲聊"
+    ],
+    "content_style_tags": [
+      "信息密度高",
+      "情绪明显",
+      "需二次核验"
+    ],
+    "values_tags": [
+      "咖啡馆聊产品",
+      "联合办公闲聊",
+      "团队分工透明"
+    ],
+    "suitable_for": [
+      "具备强筛选能力的用户",
+      "需要观察风险样本的用户"
+    ],
+    "unsuitable_for": [
+      "正在做关键决策的用户",
+      "期待稳定信任关系的用户"
+    ],
+    "interaction_boundary": [
+      "仅建议公开评论区互动",
+      "不建议直接采信其资源承诺",
+      "需要自行核验信息"
+    ],
+    "privacy_level": "low",
+    "connection_intensity": "weak",
+    "credibility_signals": [
+      "有部分亲历经验",
+      "能暴露场景风险"
+    ],
+    "risk_flags": [
+      "广告混入",
+      "情绪带节奏",
+      "信息需二次核验",
+      "不建议主动推荐"
+    ],
+    "agent_personality": "热闹、输出快，但会主动提醒用户先核验信息。",
+    "sample_questions_to_ask": [
+      "你能详细说说MVP 冷启动复盘里最重要的约束条件吗",
+      "如果我想参与创业交流，应该先避免哪些误判",
+      "你发过的用户访谈记录内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_startup_011",
+      "grp_startup_012"
+    ],
+    "authored_content_ids": [
+      "cnt_startup_011_b",
+      "cnt_startup_012_a",
+      "cnt_startup_012_b"
+    ]
+  },
+  {
+    "id": "person_geo_001",
+    "display_name": "饭后局势茶客",
+    "scene": "geopolitics_chat_matching",
+    "role_type": "高信内容贡献者",
+    "bio": "饭后局势茶客长期活跃在国际局势闲聊场景，常围绕国际新闻转发与讨论和地缘政治长文共读输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "国际新闻转发与讨论",
+      "地缘政治长文共读",
+      "饭后闲聊",
+      "茶馆吹水"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "饭后闲聊",
+      "茶馆吹水",
+      "常识判断"
+    ],
+    "suitable_for": [
+      "愿意提供真实细节的人",
+      "能接受慢节奏讨论的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "只想快速薅资源的人",
+      "习惯刷屏或带节奏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "medium",
+    "connection_intensity": "strong",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微信息过载"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说国际新闻转发与讨论里最重要的约束条件吗",
+      "如果我想参与国际局势闲聊，应该先避免哪些误判",
+      "你发过的地缘政治长文共读内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_geo_001",
+      "grp_geo_002"
+    ],
+    "authored_content_ids": [
+      "cnt_geo_001_a",
+      "cnt_geo_001_b",
+      "cnt_geo_002_a"
+    ]
+  },
+  {
+    "id": "person_geo_002",
+    "display_name": "长文共读老陈",
+    "scene": "geopolitics_chat_matching",
+    "role_type": "高信 KOL",
+    "bio": "长文共读老陈长期活跃在国际局势闲聊场景，常围绕地缘政治长文共读和历史类比输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "地缘政治长文共读",
+      "历史类比",
+      "茶馆吹水",
+      "新闻转发"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "茶馆吹水",
+      "新闻转发",
+      "长文共读"
+    ],
+    "suitable_for": [
+      "愿意提供真实细节的人",
+      "能接受慢节奏讨论的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "只想快速薅资源的人",
+      "习惯刷屏或带节奏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "medium",
+    "connection_intensity": "strong",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微信息过载"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说地缘政治长文共读里最重要的约束条件吗",
+      "如果我想参与国际局势闲聊，应该先避免哪些误判",
+      "你发过的历史类比内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_geo_002",
+      "grp_geo_003"
+    ],
+    "authored_content_ids": [
+      "cnt_geo_002_b",
+      "cnt_geo_003_a",
+      "cnt_geo_003_b"
+    ]
+  },
+  {
+    "id": "person_geo_003",
+    "display_name": "新闻核验员",
+    "scene": "geopolitics_chat_matching",
+    "role_type": "资深过来人",
+    "bio": "新闻核验员长期活跃在国际局势闲聊场景，常围绕民间生活经验视角和应过滤的谣言和阴谋论输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "民间生活经验视角",
+      "应过滤的谣言和阴谋论",
+      "家庭饭桌讨论",
+      "饭后闲聊"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "家庭饭桌讨论",
+      "饭后闲聊",
+      "信息来源明确"
+    ],
+    "suitable_for": [
+      "愿意提供真实细节的人",
+      "能接受慢节奏讨论的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "只想快速薅资源的人",
+      "习惯刷屏或带节奏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "medium",
+    "connection_intensity": "medium",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微信息过载"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说民间生活经验视角里最重要的约束条件吗",
+      "如果我想参与国际局势闲聊，应该先避免哪些误判",
+      "你发过的应过滤的谣言和阴谋论内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_geo_004",
+      "grp_geo_005"
+    ],
+    "authored_content_ids": [
+      "cnt_geo_004_a",
+      "cnt_geo_004_b",
+      "cnt_geo_005_a"
+    ]
+  },
+  {
+    "id": "person_geo_004",
+    "display_name": "历史类比书友",
+    "scene": "geopolitics_chat_matching",
+    "role_type": "老成员答疑者",
+    "bio": "历史类比书友长期活跃在国际局势闲聊场景，常围绕应过滤的谣言和阴谋论和国际新闻转发与讨论输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "应过滤的谣言和阴谋论",
+      "国际新闻转发与讨论",
+      "饭后闲聊",
+      "茶馆吹水"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "饭后闲聊",
+      "茶馆吹水",
+      "历史类比克制"
+    ],
+    "suitable_for": [
+      "需要高频交流但能自我筛选的人",
+      "愿意补充反例的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "期待群里直接给标准答案的人",
+      "容易被单一案例带偏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "medium",
+    "connection_intensity": "medium",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微主观偏差"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说应过滤的谣言和阴谋论里最重要的约束条件吗",
+      "如果我想参与国际局势闲聊，应该先避免哪些误判",
+      "你发过的国际新闻转发与讨论内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_geo_005",
+      "grp_geo_006"
+    ],
+    "authored_content_ids": [
+      "cnt_geo_005_b",
+      "cnt_geo_006_a",
+      "cnt_geo_006_b"
+    ]
+  },
+  {
+    "id": "person_geo_005",
+    "display_name": "茶馆聊图人",
+    "scene": "geopolitics_chat_matching",
+    "role_type": "活跃组织者",
+    "bio": "茶馆聊图人长期活跃在国际局势闲聊场景，常围绕地缘政治长文共读和历史类比输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "地缘政治长文共读",
+      "历史类比",
+      "新闻转发",
+      "家庭饭桌讨论"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "新闻转发",
+      "家庭饭桌讨论",
+      "允许不同观点"
+    ],
+    "suitable_for": [
+      "需要高频交流但能自我筛选的人",
+      "愿意补充反例的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "期待群里直接给标准答案的人",
+      "容易被单一案例带偏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "low",
+    "connection_intensity": "medium",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微主观偏差"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说地缘政治长文共读里最重要的约束条件吗",
+      "如果我想参与国际局势闲聊，应该先避免哪些误判",
+      "你发过的历史类比内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_geo_007",
+      "grp_geo_008"
+    ],
+    "authored_content_ids": [
+      "cnt_geo_007_a",
+      "cnt_geo_007_b",
+      "cnt_geo_008_a"
+    ]
+  },
+  {
+    "id": "person_geo_006",
+    "display_name": "家庭饭桌观察者",
+    "scene": "geopolitics_chat_matching",
+    "role_type": "日常分享者",
+    "bio": "家庭饭桌观察者长期活跃在国际局势闲聊场景，常围绕历史类比和民间生活经验视角输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "历史类比",
+      "民间生活经验视角",
+      "家庭饭桌讨论",
+      "饭后闲聊"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "家庭饭桌讨论",
+      "饭后闲聊",
+      "讨论轻松"
+    ],
+    "suitable_for": [
+      "能主动核验信息的人",
+      "愿意从杂乱讨论里提取线索的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "容易被情绪影响决策的人",
+      "需要严格审核环境的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "low",
+    "connection_intensity": "medium",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "信息质量不均"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说历史类比里最重要的约束条件吗",
+      "如果我想参与国际局势闲聊，应该先避免哪些误判",
+      "你发过的民间生活经验视角内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_geo_008",
+      "grp_geo_009"
+    ],
+    "authored_content_ids": [
+      "cnt_geo_008_b",
+      "cnt_geo_009_a",
+      "cnt_geo_009_b"
+    ]
+  },
+  {
+    "id": "person_geo_007",
+    "display_name": "情绪转发号",
+    "scene": "geopolitics_chat_matching",
+    "role_type": "风险型活跃账号",
+    "bio": "情绪转发号长期活跃在国际局势闲聊场景，常围绕应过滤的谣言和阴谋论和国际新闻转发与讨论输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "应过滤的谣言和阴谋论",
+      "国际新闻转发与讨论",
+      "茶馆吹水",
+      "新闻转发"
+    ],
+    "content_style_tags": [
+      "信息密度高",
+      "情绪明显",
+      "需二次核验"
+    ],
+    "values_tags": [
+      "茶馆吹水",
+      "新闻转发",
+      "长文共读"
+    ],
+    "suitable_for": [
+      "具备强筛选能力的用户",
+      "需要观察风险样本的用户"
+    ],
+    "unsuitable_for": [
+      "正在做关键决策的用户",
+      "期待稳定信任关系的用户"
+    ],
+    "interaction_boundary": [
+      "仅建议公开评论区互动",
+      "不建议直接采信其资源承诺",
+      "需要自行核验信息"
+    ],
+    "privacy_level": "low",
+    "connection_intensity": "weak",
+    "credibility_signals": [
+      "有部分亲历经验",
+      "能暴露场景风险"
+    ],
+    "risk_flags": [
+      "广告混入",
+      "情绪带节奏",
+      "信息需二次核验",
+      "不建议主动推荐"
+    ],
+    "agent_personality": "热闹、输出快，但会主动提醒用户先核验信息。",
+    "sample_questions_to_ask": [
+      "你能详细说说应过滤的谣言和阴谋论里最重要的约束条件吗",
+      "如果我想参与国际局势闲聊，应该先避免哪些误判",
+      "你发过的国际新闻转发与讨论内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_geo_010",
+      "grp_geo_011"
+    ],
+    "authored_content_ids": [
+      "cnt_geo_010_a",
+      "cnt_geo_010_b",
+      "cnt_geo_011_a"
+    ]
+  },
+  {
+    "id": "person_geo_008",
+    "display_name": "阴谋论热心人",
+    "scene": "geopolitics_chat_matching",
+    "role_type": "低质量样本账号",
+    "bio": "阴谋论热心人长期活跃在国际局势闲聊场景，常围绕国际新闻转发与讨论和地缘政治长文共读输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "国际新闻转发与讨论",
+      "地缘政治长文共读",
+      "新闻转发",
+      "家庭饭桌讨论"
+    ],
+    "content_style_tags": [
+      "信息密度高",
+      "情绪明显",
+      "需二次核验"
+    ],
+    "values_tags": [
+      "新闻转发",
+      "家庭饭桌讨论",
+      "幽默吹水"
+    ],
+    "suitable_for": [
+      "具备强筛选能力的用户",
+      "需要观察风险样本的用户"
+    ],
+    "unsuitable_for": [
+      "正在做关键决策的用户",
+      "期待稳定信任关系的用户"
+    ],
+    "interaction_boundary": [
+      "仅建议公开评论区互动",
+      "不建议直接采信其资源承诺",
+      "需要自行核验信息"
+    ],
+    "privacy_level": "low",
+    "connection_intensity": "weak",
+    "credibility_signals": [
+      "有部分亲历经验",
+      "能暴露场景风险"
+    ],
+    "risk_flags": [
+      "广告混入",
+      "情绪带节奏",
+      "信息需二次核验",
+      "不建议主动推荐"
+    ],
+    "agent_personality": "热闹、输出快，但会主动提醒用户先核验信息。",
+    "sample_questions_to_ask": [
+      "你能详细说说国际新闻转发与讨论里最重要的约束条件吗",
+      "如果我想参与国际局势闲聊，应该先避免哪些误判",
+      "你发过的地缘政治长文共读内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_geo_011",
+      "grp_geo_012"
+    ],
+    "authored_content_ids": [
+      "cnt_geo_011_b",
+      "cnt_geo_012_a",
+      "cnt_geo_012_b"
+    ]
+  },
+  {
+    "id": "person_moba_001",
+    "display_name": "不甩锅队长",
+    "scene": "moba_game_matching",
+    "role_type": "高信内容贡献者",
+    "bio": "不甩锅队长长期活跃在游戏开黑场景，常围绕五排招募和上分复盘输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "五排招募",
+      "上分复盘",
+      "晚上开黑",
+      "周末五排"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "晚上开黑",
+      "周末五排",
+      "时间稳定"
+    ],
+    "suitable_for": [
+      "愿意提供真实细节的人",
+      "能接受慢节奏讨论的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "只想快速薅资源的人",
+      "习惯刷屏或带节奏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "medium",
+    "connection_intensity": "strong",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微信息过载"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说五排招募里最重要的约束条件吗",
+      "如果我想参与游戏开黑，应该先避免哪些误判",
+      "你发过的上分复盘内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_moba_001",
+      "grp_moba_002"
+    ],
+    "authored_content_ids": [
+      "cnt_moba_001_a",
+      "cnt_moba_001_b",
+      "cnt_moba_002_a"
+    ]
+  },
+  {
+    "id": "person_moba_002",
+    "display_name": "晚上十点五排",
+    "scene": "moba_game_matching",
+    "role_type": "高信 KOL",
+    "bio": "晚上十点五排长期活跃在游戏开黑场景，常围绕上分复盘和低压娱乐局记录输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "上分复盘",
+      "低压娱乐局记录",
+      "周末五排",
+      "课后娱乐"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "周末五排",
+      "课后娱乐",
+      "不甩锅"
+    ],
+    "suitable_for": [
+      "愿意提供真实细节的人",
+      "能接受慢节奏讨论的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "只想快速薅资源的人",
+      "习惯刷屏或带节奏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "medium",
+    "connection_intensity": "strong",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微信息过载"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说上分复盘里最重要的约束条件吗",
+      "如果我想参与游戏开黑，应该先避免哪些误判",
+      "你发过的低压娱乐局记录内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_moba_002",
+      "grp_moba_003"
+    ],
+    "authored_content_ids": [
+      "cnt_moba_002_b",
+      "cnt_moba_003_a",
+      "cnt_moba_003_b"
+    ]
+  },
+  {
+    "id": "person_moba_003",
+    "display_name": "低压开黑位",
+    "scene": "moba_game_matching",
+    "role_type": "资深过来人",
+    "bio": "低压开黑位长期活跃在游戏开黑场景，常围绕英雄教学和应过滤的代练和骂人内容输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "英雄教学",
+      "应过滤的代练和骂人内容",
+      "赛季末冲分",
+      "晚上开黑"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "赛季末冲分",
+      "晚上开黑",
+      "固定车队"
+    ],
+    "suitable_for": [
+      "愿意提供真实细节的人",
+      "能接受慢节奏讨论的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "只想快速薅资源的人",
+      "习惯刷屏或带节奏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "medium",
+    "connection_intensity": "medium",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微信息过载"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说英雄教学里最重要的约束条件吗",
+      "如果我想参与游戏开黑，应该先避免哪些误判",
+      "你发过的应过滤的代练和骂人内容内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_moba_004",
+      "grp_moba_005"
+    ],
+    "authored_content_ids": [
+      "cnt_moba_004_a",
+      "cnt_moba_004_b",
+      "cnt_moba_005_a"
+    ]
+  },
+  {
+    "id": "person_moba_004",
+    "display_name": "赛季末补位哥",
+    "scene": "moba_game_matching",
+    "role_type": "老成员答疑者",
+    "bio": "赛季末补位哥长期活跃在游戏开黑场景，常围绕应过滤的代练和骂人内容和五排招募输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "应过滤的代练和骂人内容",
+      "五排招募",
+      "晚上开黑",
+      "周末五排"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "晚上开黑",
+      "周末五排",
+      "情绪稳定"
+    ],
+    "suitable_for": [
+      "需要高频交流但能自我筛选的人",
+      "愿意补充反例的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "期待群里直接给标准答案的人",
+      "容易被单一案例带偏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "medium",
+    "connection_intensity": "medium",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微主观偏差"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说应过滤的代练和骂人内容里最重要的约束条件吗",
+      "如果我想参与游戏开黑，应该先避免哪些误判",
+      "你发过的五排招募内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_moba_005",
+      "grp_moba_006"
+    ],
+    "authored_content_ids": [
+      "cnt_moba_005_b",
+      "cnt_moba_006_a",
+      "cnt_moba_006_b"
+    ]
+  },
+  {
+    "id": "person_moba_005",
+    "display_name": "英雄教学小队",
+    "scene": "moba_game_matching",
+    "role_type": "活跃组织者",
+    "bio": "英雄教学小队长期活跃在游戏开黑场景，常围绕上分复盘和低压娱乐局记录输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "上分复盘",
+      "低压娱乐局记录",
+      "课后娱乐",
+      "赛季末冲分"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "课后娱乐",
+      "赛季末冲分",
+      "语音开黑"
+    ],
+    "suitable_for": [
+      "需要高频交流但能自我筛选的人",
+      "愿意补充反例的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "期待群里直接给标准答案的人",
+      "容易被单一案例带偏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "low",
+    "connection_intensity": "medium",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微主观偏差"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说上分复盘里最重要的约束条件吗",
+      "如果我想参与游戏开黑，应该先避免哪些误判",
+      "你发过的低压娱乐局记录内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_moba_007",
+      "grp_moba_008"
+    ],
+    "authored_content_ids": [
+      "cnt_moba_007_a",
+      "cnt_moba_007_b",
+      "cnt_moba_008_a"
+    ]
+  },
+  {
+    "id": "person_moba_006",
+    "display_name": "周末娱乐位",
+    "scene": "moba_game_matching",
+    "role_type": "日常分享者",
+    "bio": "周末娱乐位长期活跃在游戏开黑场景，常围绕低压娱乐局记录和英雄教学输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "低压娱乐局记录",
+      "英雄教学",
+      "赛季末冲分",
+      "晚上开黑"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "赛季末冲分",
+      "晚上开黑",
+      "新人友好"
+    ],
+    "suitable_for": [
+      "能主动核验信息的人",
+      "愿意从杂乱讨论里提取线索的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "容易被情绪影响决策的人",
+      "需要严格审核环境的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "low",
+    "connection_intensity": "medium",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "信息质量不均"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说低压娱乐局记录里最重要的约束条件吗",
+      "如果我想参与游戏开黑，应该先避免哪些误判",
+      "你发过的英雄教学内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_moba_008",
+      "grp_moba_009"
+    ],
+    "authored_content_ids": [
+      "cnt_moba_008_b",
+      "cnt_moba_009_a",
+      "cnt_moba_009_b"
+    ]
+  },
+  {
+    "id": "person_moba_007",
+    "display_name": "压力指挥号",
+    "scene": "moba_game_matching",
+    "role_type": "风险型活跃账号",
+    "bio": "压力指挥号长期活跃在游戏开黑场景，常围绕应过滤的代练和骂人内容和五排招募输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "应过滤的代练和骂人内容",
+      "五排招募",
+      "周末五排",
+      "课后娱乐"
+    ],
+    "content_style_tags": [
+      "信息密度高",
+      "情绪明显",
+      "需二次核验"
+    ],
+    "values_tags": [
+      "周末五排",
+      "课后娱乐",
+      "不甩锅"
+    ],
+    "suitable_for": [
+      "具备强筛选能力的用户",
+      "需要观察风险样本的用户"
+    ],
+    "unsuitable_for": [
+      "正在做关键决策的用户",
+      "期待稳定信任关系的用户"
+    ],
+    "interaction_boundary": [
+      "仅建议公开评论区互动",
+      "不建议直接采信其资源承诺",
+      "需要自行核验信息"
+    ],
+    "privacy_level": "low",
+    "connection_intensity": "weak",
+    "credibility_signals": [
+      "有部分亲历经验",
+      "能暴露场景风险"
+    ],
+    "risk_flags": [
+      "广告混入",
+      "情绪带节奏",
+      "信息需二次核验",
+      "不建议主动推荐"
+    ],
+    "agent_personality": "热闹、输出快，但会主动提醒用户先核验信息。",
+    "sample_questions_to_ask": [
+      "你能详细说说应过滤的代练和骂人内容里最重要的约束条件吗",
+      "如果我想参与游戏开黑，应该先避免哪些误判",
+      "你发过的五排招募内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_moba_010",
+      "grp_moba_011"
+    ],
+    "authored_content_ids": [
+      "cnt_moba_010_a",
+      "cnt_moba_010_b",
+      "cnt_moba_011_a"
+    ]
+  },
+  {
+    "id": "person_moba_008",
+    "display_name": "代练广告号",
+    "scene": "moba_game_matching",
+    "role_type": "低质量样本账号",
+    "bio": "代练广告号长期活跃在游戏开黑场景，常围绕五排招募和上分复盘输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "五排招募",
+      "上分复盘",
+      "课后娱乐",
+      "赛季末冲分"
+    ],
+    "content_style_tags": [
+      "信息密度高",
+      "情绪明显",
+      "需二次核验"
+    ],
+    "values_tags": [
+      "课后娱乐",
+      "赛季末冲分",
+      "低压娱乐"
+    ],
+    "suitable_for": [
+      "具备强筛选能力的用户",
+      "需要观察风险样本的用户"
+    ],
+    "unsuitable_for": [
+      "正在做关键决策的用户",
+      "期待稳定信任关系的用户"
+    ],
+    "interaction_boundary": [
+      "仅建议公开评论区互动",
+      "不建议直接采信其资源承诺",
+      "需要自行核验信息"
+    ],
+    "privacy_level": "low",
+    "connection_intensity": "weak",
+    "credibility_signals": [
+      "有部分亲历经验",
+      "能暴露场景风险"
+    ],
+    "risk_flags": [
+      "广告混入",
+      "情绪带节奏",
+      "信息需二次核验",
+      "不建议主动推荐"
+    ],
+    "agent_personality": "热闹、输出快，但会主动提醒用户先核验信息。",
+    "sample_questions_to_ask": [
+      "你能详细说说五排招募里最重要的约束条件吗",
+      "如果我想参与游戏开黑，应该先避免哪些误判",
+      "你发过的上分复盘内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_moba_011",
+      "grp_moba_012"
+    ],
+    "authored_content_ids": [
+      "cnt_moba_011_b",
+      "cnt_moba_012_a",
+      "cnt_moba_012_b"
+    ]
+  },
+  {
+    "id": "person_anime_001",
+    "display_name": "下课补番",
+    "scene": "anime_fandom_matching",
+    "role_type": "高信内容贡献者",
+    "bio": "下课补番长期活跃在二次元同好场景，常围绕新番讨论和老番补番记录输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "新番讨论",
+      "老番补番记录",
+      "下课聊番",
+      "漫展约伴"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "下课聊番",
+      "漫展约伴",
+      "允许潜水"
+    ],
+    "suitable_for": [
+      "愿意提供真实细节的人",
+      "能接受慢节奏讨论的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "只想快速薅资源的人",
+      "习惯刷屏或带节奏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "medium",
+    "connection_intensity": "strong",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微信息过载"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说新番讨论里最重要的约束条件吗",
+      "如果我想参与二次元同好，应该先避免哪些误判",
+      "你发过的老番补番记录内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_anime_001",
+      "grp_anime_002"
+    ],
+    "authored_content_ids": [
+      "cnt_anime_001_a",
+      "cnt_anime_001_b",
+      "cnt_anime_002_a"
+    ]
+  },
+  {
+    "id": "person_anime_002",
+    "display_name": "漫展集合点",
+    "scene": "anime_fandom_matching",
+    "role_type": "高信 KOL",
+    "bio": "漫展集合点长期活跃在二次元同好场景，常围绕老番补番记录和漫展约伴输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "老番补番记录",
+      "漫展约伴",
+      "周边开箱",
+      "新番聊天"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "漫展约伴",
+      "周边开箱",
+      "新番聊天"
+    ],
+    "suitable_for": [
+      "愿意提供真实细节的人",
+      "能接受慢节奏讨论的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "只想快速薅资源的人",
+      "习惯刷屏或带节奏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "medium",
+    "connection_intensity": "strong",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微信息过载"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说老番补番记录里最重要的约束条件吗",
+      "如果我想参与二次元同好，应该先避免哪些误判",
+      "你发过的漫展约伴内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_anime_002",
+      "grp_anime_003"
+    ],
+    "authored_content_ids": [
+      "cnt_anime_002_b",
+      "cnt_anime_003_a",
+      "cnt_anime_003_b"
+    ]
+  },
+  {
+    "id": "person_anime_003",
+    "display_name": "老番慢慢补",
+    "scene": "anime_fandom_matching",
+    "role_type": "资深过来人",
+    "bio": "老番慢慢补长期活跃在二次元同好场景，常围绕谷子/周边分享和应过滤的饭圈互撕和交易纠纷内容输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "谷子/周边分享",
+      "应过滤的饭圈互撕和交易纠纷内容",
+      "深夜补番",
+      "下课聊番"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "深夜补番",
+      "下课聊番",
+      "漫展搭子"
+    ],
+    "suitable_for": [
+      "愿意提供真实细节的人",
+      "能接受慢节奏讨论的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "只想快速薅资源的人",
+      "习惯刷屏或带节奏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "medium",
+    "connection_intensity": "medium",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微信息过载"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说谷子/周边分享里最重要的约束条件吗",
+      "如果我想参与二次元同好，应该先避免哪些误判",
+      "你发过的应过滤的饭圈互撕和交易纠纷内容内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_anime_004",
+      "grp_anime_005"
+    ],
+    "authored_content_ids": [
+      "cnt_anime_004_a",
+      "cnt_anime_004_b",
+      "cnt_anime_005_a"
+    ]
+  },
+  {
+    "id": "person_anime_004",
+    "display_name": "不互撕谷子人",
+    "scene": "anime_fandom_matching",
+    "role_type": "老成员答疑者",
+    "bio": "不互撕谷子人长期活跃在二次元同好场景，常围绕应过滤的饭圈互撕和交易纠纷内容和新番讨论输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "应过滤的饭圈互撕和交易纠纷内容",
+      "新番讨论",
+      "下课聊番",
+      "漫展约伴"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "下课聊番",
+      "漫展约伴",
+      "玩梗适度"
+    ],
+    "suitable_for": [
+      "需要高频交流但能自我筛选的人",
+      "愿意补充反例的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "期待群里直接给标准答案的人",
+      "容易被单一案例带偏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "medium",
+    "connection_intensity": "medium",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微主观偏差"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说应过滤的饭圈互撕和交易纠纷内容里最重要的约束条件吗",
+      "如果我想参与二次元同好，应该先避免哪些误判",
+      "你发过的新番讨论内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_anime_005",
+      "grp_anime_006"
+    ],
+    "authored_content_ids": [
+      "cnt_anime_005_b",
+      "cnt_anime_006_a",
+      "cnt_anime_006_b"
+    ]
+  },
+  {
+    "id": "person_anime_005",
+    "display_name": "新番讨论同桌",
+    "scene": "anime_fandom_matching",
+    "role_type": "活跃组织者",
+    "bio": "新番讨论同桌长期活跃在二次元同好场景，常围绕老番补番记录和漫展约伴输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "老番补番记录",
+      "漫展约伴",
+      "周边开箱",
+      "深夜补番"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "周边开箱",
+      "深夜补番",
+      "同好分享"
+    ],
+    "suitable_for": [
+      "需要高频交流但能自我筛选的人",
+      "愿意补充反例的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "期待群里直接给标准答案的人",
+      "容易被单一案例带偏的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "low",
+    "connection_intensity": "medium",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "轻微主观偏差"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说老番补番记录里最重要的约束条件吗",
+      "如果我想参与二次元同好，应该先避免哪些误判",
+      "你发过的漫展约伴内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_anime_007",
+      "grp_anime_008"
+    ],
+    "authored_content_ids": [
+      "cnt_anime_007_a",
+      "cnt_anime_007_b",
+      "cnt_anime_008_a"
+    ]
+  },
+  {
+    "id": "person_anime_006",
+    "display_name": "周边开箱小号",
+    "scene": "anime_fandom_matching",
+    "role_type": "日常分享者",
+    "bio": "周边开箱小号长期活跃在二次元同好场景，常围绕漫展约伴和谷子/周边分享输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "漫展约伴",
+      "谷子/周边分享",
+      "深夜补番",
+      "下课聊番"
+    ],
+    "content_style_tags": [
+      "具体场景",
+      "经验复盘",
+      "边界清楚"
+    ],
+    "values_tags": [
+      "深夜补番",
+      "下课聊番",
+      "交易透明"
+    ],
+    "suitable_for": [
+      "能主动核验信息的人",
+      "愿意从杂乱讨论里提取线索的人",
+      "希望连接高信信息源的用户"
+    ],
+    "unsuitable_for": [
+      "容易被情绪影响决策的人",
+      "需要严格审核环境的人"
+    ],
+    "interaction_boundary": [
+      "优先接受具体问题",
+      "不接模糊求资源请求",
+      "不代替用户做决策"
+    ],
+    "privacy_level": "low",
+    "connection_intensity": "medium",
+    "credibility_signals": [
+      "亲历经验明确",
+      "长期内容记录",
+      "群内高赞或文档贡献"
+    ],
+    "risk_flags": [
+      "信息质量不均"
+    ],
+    "agent_personality": "克制、具体、愿意说明经验边界和适用范围。",
+    "sample_questions_to_ask": [
+      "你能详细说说漫展约伴里最重要的约束条件吗",
+      "如果我想参与二次元同好，应该先避免哪些误判",
+      "你发过的谷子/周边分享内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_anime_008",
+      "grp_anime_009"
+    ],
+    "authored_content_ids": [
+      "cnt_anime_008_b",
+      "cnt_anime_009_a",
+      "cnt_anime_009_b"
+    ]
+  },
+  {
+    "id": "person_anime_007",
+    "display_name": "剧透不提醒号",
+    "scene": "anime_fandom_matching",
+    "role_type": "风险型活跃账号",
+    "bio": "剧透不提醒号长期活跃在二次元同好场景，常围绕应过滤的饭圈互撕和交易纠纷内容和新番讨论输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "应过滤的饭圈互撕和交易纠纷内容",
+      "新番讨论",
+      "漫展约伴",
+      "周边开箱"
+    ],
+    "content_style_tags": [
+      "信息密度高",
+      "情绪明显",
+      "需二次核验"
+    ],
+    "values_tags": [
+      "漫展约伴",
+      "周边开箱",
+      "新番聊天"
+    ],
+    "suitable_for": [
+      "具备强筛选能力的用户",
+      "需要观察风险样本的用户"
+    ],
+    "unsuitable_for": [
+      "正在做关键决策的用户",
+      "期待稳定信任关系的用户"
+    ],
+    "interaction_boundary": [
+      "仅建议公开评论区互动",
+      "不建议直接采信其资源承诺",
+      "需要自行核验信息"
+    ],
+    "privacy_level": "low",
+    "connection_intensity": "weak",
+    "credibility_signals": [
+      "有部分亲历经验",
+      "能暴露场景风险"
+    ],
+    "risk_flags": [
+      "广告混入",
+      "情绪带节奏",
+      "信息需二次核验",
+      "不建议主动推荐"
+    ],
+    "agent_personality": "热闹、输出快，但会主动提醒用户先核验信息。",
+    "sample_questions_to_ask": [
+      "你能详细说说应过滤的饭圈互撕和交易纠纷内容里最重要的约束条件吗",
+      "如果我想参与二次元同好，应该先避免哪些误判",
+      "你发过的新番讨论内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_anime_010",
+      "grp_anime_011"
+    ],
+    "authored_content_ids": [
+      "cnt_anime_010_a",
+      "cnt_anime_010_b",
+      "cnt_anime_011_a"
+    ]
+  },
+  {
+    "id": "person_anime_008",
+    "display_name": "交易纠纷样本",
+    "scene": "anime_fandom_matching",
+    "role_type": "低质量样本账号",
+    "bio": "交易纠纷样本长期活跃在二次元同好场景，常围绕新番讨论和老番补番记录输出内容。互动时重视边界，不把个案直接包装成标准答案。",
+    "expertise_tags": [
+      "新番讨论",
+      "老番补番记录",
+      "周边开箱",
+      "深夜补番"
+    ],
+    "content_style_tags": [
+      "信息密度高",
+      "情绪明显",
+      "需二次核验"
+    ],
+    "values_tags": [
+      "周边开箱",
+      "深夜补番",
+      "老番补番"
+    ],
+    "suitable_for": [
+      "具备强筛选能力的用户",
+      "需要观察风险样本的用户"
+    ],
+    "unsuitable_for": [
+      "正在做关键决策的用户",
+      "期待稳定信任关系的用户"
+    ],
+    "interaction_boundary": [
+      "仅建议公开评论区互动",
+      "不建议直接采信其资源承诺",
+      "需要自行核验信息"
+    ],
+    "privacy_level": "low",
+    "connection_intensity": "weak",
+    "credibility_signals": [
+      "有部分亲历经验",
+      "能暴露场景风险"
+    ],
+    "risk_flags": [
+      "广告混入",
+      "情绪带节奏",
+      "信息需二次核验",
+      "不建议主动推荐"
+    ],
+    "agent_personality": "热闹、输出快，但会主动提醒用户先核验信息。",
+    "sample_questions_to_ask": [
+      "你能详细说说新番讨论里最重要的约束条件吗",
+      "如果我想参与二次元同好，应该先避免哪些误判",
+      "你发过的老番补番记录内容有哪些可复用的判断方法"
+    ],
+    "linked_group_ids": [
+      "grp_anime_011",
+      "grp_anime_012"
+    ],
+    "authored_content_ids": [
+      "cnt_anime_011_b",
+      "cnt_anime_012_a",
+      "cnt_anime_012_b"
+    ]
+  }
+]

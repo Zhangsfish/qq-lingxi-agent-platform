@@ -1,0 +1,250 @@
+
+> qq-lingxi-agent-platform@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.5.15
+   - Local:        http://localhost:3000
+   - Network:      http://169.254.83.107:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 5.8s
+ ○ Compiling / ...
+ ✓ Compiled / in 2.4s (543 modules)
+ GET / 200 in 3736ms
+ ✓ Compiled in 2.7s (238 modules)
+ ✓ Compiled in 252ms (238 modules)
+ ○ Compiling /api/data/content-items ...
+ ✓ Compiled /api/data/content-items in 2.1s (650 modules)
+ GET /api/data/people?scene=anime_fandom_matching 200 in 2741ms
+ GET /api/data/people 200 in 2759ms
+ GET /api/data/content-items?scene=food_group_matching 200 in 2766ms
+ GET /api/data/content-items 200 in 2775ms
+ ○ Compiling /api/data/groups ...
+ ✓ Compiled /api/data/groups in 727ms (652 modules)
+ GET /api/data/groups?scene=long_term_community_matching 200 in 1016ms
+ GET /api/data/groups 200 in 1042ms
+ GET / 200 in 620ms
+ ✓ Compiled in 1024ms (239 modules)
+ ✓ Compiled in 312ms (239 modules)
+ ✓ Compiled in 355ms (239 modules)
+ ✓ Compiled in 362ms (239 modules)
+ ✓ Compiled in 651ms (239 modules)
+ ✓ Compiled in 382ms (239 modules)
+ ✓ Compiled in 696ms (240 modules)
+ ✓ Compiled in 318ms (240 modules)
+ ✓ Compiled / in 436ms (320 modules)
+ GET / 200 in 1439ms
+ ✓ Compiled /api/data/people in 471ms (424 modules)
+ ✓ Compiled (426 modules)
+ GET /api/data/people?scene=career_transition_matching 200 in 1348ms
+ GET /api/data/content-items?scene=career_transition_matching 200 in 1368ms
+ ○ Compiling /api/match/people ...
+ ✓ Compiled /api/match/people in 1001ms (673 modules)
+ POST /api/match/people 200 in 56308ms
+ ✓ Compiled in 441ms (240 modules)
+ ✓ Compiled /api/match/people in 357ms (192 modules)
+ POST /api/match/people 200 in 53093ms
+ ✓ Compiled in 346ms (240 modules)
+ ✓ Compiled in 254ms (240 modules)
+ ✓ Compiled /api/data/people in 358ms (187 modules)
+ ✓ Compiled (428 modules)
+ GET /api/data/content-items 200 in 1328ms
+ GET /api/data/people 200 in 1339ms
+ GET /api/data/groups 200 in 1785ms
+ GET / 200 in 2160ms
+ GET / 200 in 198ms
+ GET / 200 in 191ms
+ ✓ Compiled in 373ms (240 modules)
+ GET / 200 in 128ms
+ ✓ Compiled in 236ms (240 modules)
+ GET / 200 in 98ms
+ ✓ Compiled in 351ms (240 modules)
+ GET / 200 in 103ms
+ ✓ Compiled in 243ms (240 modules)
+ ⨯ SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: '/'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 2.9s (892 modules)
+ GET / 500 in 4105ms
+ GET / 200 in 460ms
+ GET / 200 in 86ms
+ GET / 200 in 79ms
+ GET / 200 in 74ms
+ GET / 200 in 574ms
+ ✓ Compiled in 492ms (392 modules)
+ GET / 200 in 107ms
+ ✓ Compiled in 585ms (906 modules)
+ GET / 200 in 168ms
+ ✓ Compiled in 668ms (906 modules)
+ GET / 200 in 192ms
+ ✓ Compiled in 1011ms (812 modules)
+ GET / 200 in 478ms
+ ✓ Compiled in 268ms (392 modules)
+ GET / 200 in 99ms
+ GET / 200 in 468ms
+ ○ Compiling /api/data/groups ...
+ ✓ Compiled /api/data/groups in 899ms (524 modules)
+ GET /api/data/groups?scene=long_term_community_matching 200 in 1362ms
+ ✓ Compiled /api/data/people in 327ms (526 modules)
+ GET /api/data/people?scene=career_transition_matching 200 in 575ms
+ ○ Compiling /api/agent/negotiate ...
+ ✓ Compiled /api/agent/negotiate in 826ms (911 modules)
+ POST /api/agent/negotiate 200 in 62486ms
+ POST /api/agent/negotiate 200 in 47027ms
+ GET / 200 in 740ms
+ GET / 200 in 195ms
+ ○ Compiling /api/agent/respond ...
+ ✓ Compiled /api/agent/respond in 889ms (823 modules)
+ POST /api/agent/respond 200 in 18450ms
+ POST /api/agent/respond 200 in 20235ms
+ POST /api/agent/respond 200 in 20565ms
+ POST /api/agent/respond 200 in 21774ms
+ ○ Compiling /api/agent/profile ...
+ ✓ Compiled /api/agent/profile in 964ms (920 modules)
+ GET / 200 in 523ms
+ POST /api/agent/profile 200 in 78230ms
+ ✓ Compiled /api/match/people in 472ms (529 modules)
+ ○ Compiling /api/match/groups ...
+ ✓ Compiled /api/match/groups in 848ms (925 modules)
+ GET / 200 in 331ms
+ POST /api/match/groups 500 in 10549ms
+ POST /api/match/people 200 in 53195ms
+ POST /api/match/groups 200 in 55122ms
+ ○ Compiling /api/agent/negotiate ...
+ ✓ Compiled /api/agent/negotiate in 634ms (529 modules)
+ POST /api/agent/negotiate 200 in 65577ms
+ POST /api/agent/negotiate 200 in 79044ms
+ ✓ Compiled in 424ms (392 modules)
+ GET / 200 in 399ms
+ ✓ Compiled in 738ms (812 modules)
+ GET / 200 in 608ms
+ ✓ Compiled in 291ms (392 modules)
+ GET / 200 in 107ms
+ ✓ Compiled in 1092ms (812 modules)
+ GET / 200 in 341ms
+ ✓ Compiled in 899ms (812 modules)
+ GET / 200 in 290ms
+ ✓ Compiled in 266ms (392 modules)
+ GET / 200 in 124ms
+ GET / 200 in 488ms
+ ○ Compiling /api/agent/profile ...
+ ✓ Compiled /api/agent/profile in 603ms (524 modules)
+ GET / 200 in 704ms
+ POST /api/agent/profile 200 in 56964ms
+ ✓ Compiled in 401ms (392 modules)
+ ✓ Compiled in 401ms (392 modules)
+ GET / 200 in 523ms
+ GET / 200 in 109ms
+ POST /api/agent/profile 200 in 50858ms
+ ✓ Compiled in 525ms (812 modules)
+ GET / 200 in 291ms
+ ✓ Compiled /api/agent/profile in 419ms (524 modules)
+ GET / 200 in 720ms
+ POST /api/agent/profile 500 in 61677ms
+ POST /api/agent/profile 200 in 60617ms
+ POST /api/agent/profile 200 in 67083ms
+ POST /api/agent/profile 200 in 63506ms
+ POST /api/agent/profile 200 in 46034ms
+ ○ Compiling /api/match/people ...
+ ✓ Compiled /api/match/people in 836ms (529 modules)
+ GET / 200 in 571ms
+ POST /api/match/people 200 in 36813ms
+ ○ Compiling /api/match/groups ...
+ ✓ Compiled /api/match/groups in 660ms (533 modules)
+ GET / 200 in 189ms
+ POST /api/match/groups 200 in 44446ms
+ ○ Compiling /api/agent/negotiate ...
+ ✓ Compiled /api/agent/negotiate in 608ms (533 modules)
+ GET / 200 in 342ms
+ POST /api/agent/negotiate 200 in 53303ms
+ GET / 200 in 548ms
+ ✓ Compiled in 478ms (392 modules)
+ ✓ Compiled in 324ms (392 modules)
+ ✓ Compiled in 271ms (392 modules)
+ ✓ Compiled in 279ms (392 modules)
+ ✓ Compiled in 1457ms (812 modules)
+ ✓ Compiled in 347ms (392 modules)
+ ✓ Compiled in 1409ms (814 modules)
+ ✓ Compiled in 377ms (393 modules)
+ ✓ Compiled /api/data/content-items in 363ms (525 modules)
+ GET /api/data/content-items?scene=career_transition_matching 200 in 1785ms
+ GET / 200 in 1805ms
+ ○ Compiling /api/realm/recommend ...
+ ✓ Compiled /api/realm/recommend in 1126ms (925 modules)
+ POST /api/realm/recommend 200 in 57984ms
+ ○ Compiling /api/agent/negotiate ...
+ ✓ Compiled /api/agent/negotiate in 576ms (530 modules)
+ POST /api/agent/negotiate 200 in 57754ms
+ POST /api/agent/negotiate 200 in 48889ms
+ GET / 200 in 478ms
+ GET / 200 in 173ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled in 3.2s (393 modules)
+ ✓ Compiled in 488ms (393 modules)
+ ✓ Compiled in 471ms (393 modules)
+ ✓ Compiled in 373ms (393 modules)
+ ✓ Compiled in 568ms (393 modules)
+ ✓ Compiled in 458ms (393 modules)
+ ✓ Compiled in 509ms (393 modules)
+ ✓ Compiled in 384ms (393 modules)
+ ✓ Compiled in 551ms (393 modules)
+ ✓ Compiled in 374ms (393 modules)
+ ✓ Compiled in 484ms (393 modules)
+ ✓ Compiled in 405ms (393 modules)
+ ✓ Compiled in 512ms (378 modules)
+ ✓ Compiled in 2.3s (820 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1842ms (825 modules)
+ ⨯ Error: ENOENT: no such file or directory, open 'E:\vibe_coding_first\qq-lingxi-agent-platform\.next\server\vendor-chunks\next.js'
+    at <unknown> (E:\vibe_coding_first\qq-lingxi-agent-platform\.next\server\app\_not-found\page.js:227:47)
+    at Object.<anonymous> (E:\vibe_coding_first\qq-lingxi-agent-platform\.next\server\app\_not-found\page.js:230:3) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'E:\\vibe_coding_first\\qq-lingxi-agent-platform\\.next\\server\\vendor-chunks\\next.js'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 1858ms (907 modules)
+ GET / 500 in 11349ms
+[Error: ENOENT: no such file or directory, stat 'E:\vibe_coding_first\qq-lingxi-agent-platform\.next\cache\webpack\client-development\4.pack.gz'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'E:\\vibe_coding_first\\qq-lingxi-agent-platform\\.next\\cache\\webpack\\client-development\\4.pack.gz'
+}
+ ⨯ unhandledRejection: [Error: ENOENT: no such file or directory, stat 'E:\vibe_coding_first\qq-lingxi-agent-platform\.next\cache\webpack\client-development\4.pack.gz'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'E:\\vibe_coding_first\\qq-lingxi-agent-platform\\.next\\cache\\webpack\\client-development\\4.pack.gz'
+}
+ ⨯ unhandledRejection:  [Error: ENOENT: no such file or directory, stat 'E:\vibe_coding_first\qq-lingxi-agent-platform\.next\cache\webpack\client-development\4.pack.gz'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'E:\\vibe_coding_first\\qq-lingxi-agent-platform\\.next\\cache\\webpack\\client-development\\4.pack.gz'
+}
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, stat 'E:\vibe_coding_first\qq-lingxi-agent-platform\.next\cache\webpack\client-development\4.pack.gz'
+[Error: ENOENT: no such file or directory, stat 'E:\vibe_coding_first\qq-lingxi-agent-platform\.next\cache\webpack\server-development\11.pack.gz'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'E:\\vibe_coding_first\\qq-lingxi-agent-platform\\.next\\cache\\webpack\\server-development\\11.pack.gz'
+}
+ ⨯ unhandledRejection: [Error: ENOENT: no such file or directory, stat 'E:\vibe_coding_first\qq-lingxi-agent-platform\.next\cache\webpack\server-development\11.pack.gz'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'E:\\vibe_coding_first\\qq-lingxi-agent-platform\\.next\\cache\\webpack\\server-development\\11.pack.gz'
+}
+ ⨯ unhandledRejection:  [Error: ENOENT: no such file or directory, stat 'E:\vibe_coding_first\qq-lingxi-agent-platform\.next\cache\webpack\server-development\11.pack.gz'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'E:\\vibe_coding_first\\qq-lingxi-agent-platform\\.next\\cache\\webpack\\server-development\\11.pack.gz'
+}
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, stat 'E:\vibe_coding_first\qq-lingxi-agent-platform\.next\cache\webpack\server-development\11.pack.gz'
+[?25h
