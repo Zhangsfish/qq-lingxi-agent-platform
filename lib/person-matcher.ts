@@ -1,4 +1,6 @@
 import type { ContentItem } from "./content-schema";
+import { buildPersonalityMatchingContext } from "./personality-context";
+import type { PersonalityProfile } from "./personality-schema";
 import {
   PersonMatchResultSchema,
   type FilteredPerson,
@@ -79,6 +81,7 @@ export function buildPersonMatchingPromptInput(
   profile: unknown,
   people: PersonProfile[],
   contentItems: ContentItem[],
+  soulProfile?: PersonalityProfile | null,
 ): string {
   const candidatePeople: CandidatePersonForPrompt[] = people.map((person) => ({
     id: person.id,
@@ -124,8 +127,9 @@ export function buildPersonMatchingPromptInput(
     {
       task: "match_user_profile_to_candidate_people",
       instruction:
-        "请根据 user_profile、candidate_people 和 related_content_items 输出符合 schema 的 JSON。只使用候选人物中的 person_id。为了避免输出过长，请只返回 3 个 matches 和 1 个 filtered_out；reason、risk、summary 字段保持一句话；relevant_content_ids 只选择该人物 authored_content_ids 中最相关的 1-2 条。",
+        "请根据 user_profile、candidate_people 和 related_content_items 输出符合 schema 的 JSON。user_profile 是当前具体需求的首要依据；若 long_term_personality 不为空，将它作为长期价值、能量与边界适配的辅助依据，并在理由或风险中体现。只使用候选人物中的 person_id。为了避免输出过长，请只返回 3 个 matches 和 1 个 filtered_out；reason、risk、summary 字段保持一句话；relevant_content_ids 只选择该人物 authored_content_ids 中最相关的 1-2 条。",
       user_profile: profile,
+      long_term_personality: buildPersonalityMatchingContext(soulProfile),
       candidate_people: candidatePeople,
       related_content_items: relevantContentItems,
     },

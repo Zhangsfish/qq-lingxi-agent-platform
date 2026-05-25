@@ -1,5 +1,7 @@
 import type { ContentItem } from "./content-schema";
 import type { GroupProfile } from "./group-schema";
+import { buildPersonalityMatchingContext } from "./personality-context";
+import type { PersonalityProfile } from "./personality-schema";
 import {
   RealmRecommendationResultSchema,
   type RealmFilteredItem,
@@ -88,6 +90,7 @@ export function parseRealmRecommendationResult(
 
 export function buildRealmRecommendationPromptInput(args: {
   profile: unknown;
+  soulProfile?: PersonalityProfile | null;
   contentItems: ContentItem[];
   people: PersonProfile[];
   groups: GroupProfile[];
@@ -141,8 +144,9 @@ export function buildRealmRecommendationPromptInput(args: {
     {
       task: "recommend_realm_content_for_user_profile",
       instruction:
-        "请根据 user_profile、candidate_content_items、authors 和 linked_groups 输出符合 schema 的 JSON。为了避免输出过长，只返回 6 个 recommended_items 和 2 个 filtered_out；reason、risk、summary 字段保持一句话。connectable_targets 只使用内容的 author_profile_id 或 linked_group_ids。",
+        "请根据 user_profile、candidate_content_items、authors 和 linked_groups 输出符合 schema 的 JSON。user_profile 是当前具体需求的首要依据；若 long_term_personality 不为空，将它作为长期价值、能量与边界适配的辅助依据，并在理由或风险中体现。为了避免输出过长，只返回 6 个 recommended_items 和 2 个 filtered_out；reason、risk、summary 字段保持一句话。connectable_targets 只使用内容的 author_profile_id 或 linked_group_ids。",
       user_profile: args.profile,
+      long_term_personality: buildPersonalityMatchingContext(args.soulProfile),
       candidate_content_items: candidateContent,
       authors,
       linked_groups: linkedGroups,

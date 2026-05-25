@@ -2,6 +2,7 @@ import { z } from "zod";
 import { ContentItemSchema } from "./content-schema";
 import { GroupProfileSchema } from "./group-schema";
 import { PersonProfileSchema } from "./person-schema";
+import type { PersonalityProfile } from "./personality-schema";
 
 export const NegotiationTargetTypeSchema = z.enum(["group", "person"]);
 export const NegotiationSourceSchema = z.enum([
@@ -45,6 +46,7 @@ export type NegotiationResult = z.infer<typeof NegotiationResultSchema>;
 
 export type NegotiationRequest = {
   profile: unknown;
+  soulProfile?: PersonalityProfile | null;
   targetType: NegotiationTargetType;
   targetId: string;
   source: NegotiationSource;

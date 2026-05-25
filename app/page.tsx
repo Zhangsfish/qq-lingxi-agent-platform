@@ -1,15 +1,19 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { AppShell } from "@/components/AppShell";
 import { GroupMatchView } from "@/components/GroupMatchView";
 import { HomeView } from "@/components/HomeView";
 import { InterviewView } from "@/components/InterviewView";
 import { NegotiationView } from "@/components/NegotiationView";
 import { PeopleMatchView } from "@/components/PeopleMatchView";
+import { PersonaResultView } from "@/components/PersonaResultView";
+import { PersonaSeedView } from "@/components/PersonaSeedView";
+import { PersonaTestView } from "@/components/PersonaTestView";
 import { ProfileView } from "@/components/ProfileView";
 import { RealmFeedView } from "@/components/RealmFeedView";
 import { RightPanel } from "@/components/RightPanel";
+import { usePersonalityTest } from "@/hooks/usePersonalityTest";
 import type { DemoView } from "@/lib/demo-types";
 import type { GroupMatchResponse } from "@/lib/group-match-schema";
 import type { NegotiationResponse } from "@/lib/negotiation-schema";
@@ -35,12 +39,12 @@ function stripProfileReadyMarker(content: string) {
 
 export default function Home() {
   const [activeView, setActiveView] = useState<DemoView>("home");
+  const personality = usePersonalityTest();
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [profile, setProfile] = useState<UserNeedProfile | null>(null);
-  const [profileRawContent, setProfileRawContent] = useState("");
   const [profileLoading, setProfileLoading] = useState(false);
   const [profileError, setProfileError] = useState<string | null>(null);
   const [groupMatchResponse, setGroupMatchResponse] =
@@ -90,7 +94,6 @@ export default function Home() {
     setIsLoading(true);
     setProfileReadyByAgent(false);
     setProfile(null);
-    setProfileRawContent("");
     setProfileError(null);
     setGroupMatchResponse(null);
     setGroupMatchError(null);
@@ -158,7 +161,6 @@ export default function Home() {
     setInput("");
     setError(null);
     setProfile(null);
-    setProfileRawContent("");
     setProfileError(null);
     setGroupMatchResponse(null);
     setGroupMatchError(null);
@@ -212,7 +214,6 @@ export default function Home() {
       }
 
       setProfile(data.profile);
-      setProfileRawContent(data.rawContent);
       setGroupMatchResponse(null);
       setGroupMatchError(null);
       setPeopleMatchResponse(null);
@@ -249,7 +250,10 @@ export default function Home() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ profile }),
+        body: JSON.stringify({
+          profile,
+          soulProfile: personality.finalProfile,
+        }),
       });
 
       const data = (await response.json()) as
@@ -289,7 +293,10 @@ export default function Home() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ profile }),
+        body: JSON.stringify({
+          profile,
+          soulProfile: personality.finalProfile,
+        }),
       });
 
       const data = (await response.json()) as
@@ -329,7 +336,10 @@ export default function Home() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ profile }),
+        body: JSON.stringify({
+          profile,
+          soulProfile: personality.finalProfile,
+        }),
       });
 
       const data = (await response.json()) as
@@ -426,6 +436,7 @@ export default function Home() {
         },
         body: JSON.stringify({
           profile,
+          soulProfile: personality.finalProfile,
           targetType,
           targetId,
           source,
@@ -462,6 +473,41 @@ export default function Home() {
     setActiveView(view);
   }
 
+  async function handleStartPersonality(seed: string) {
+    const started = await personality.startWithSeed(seed);
+    if (started) {
+      setActiveView("persona_test");
+    }
+  }
+
+  async function handleUseDemoPersonalitySeed() {
+    const started = await personality.useDemoSeed();
+    if (started) {
+      setActiveView("persona_test");
+    }
+  }
+
+  async function handlePersonalityAnswer(answer: string) {
+    const response = await personality.sendAnswer(answer);
+    if (response?.is_final_ready) {
+      setActiveView("persona_result");
+    }
+  }
+
+  function handleRestartPersonality() {
+    personality.resetPersonalityTest();
+    setActiveView("persona_seed");
+  }
+
+  const [handledRestoredProfile, setHandledRestoredProfile] = useState(false);
+
+  useEffect(() => {
+    if (!handledRestoredProfile && personality.isRestored) {
+      setActiveView("persona_result");
+      setHandledRestoredProfile(true);
+    }
+  }, [handledRestoredProfile, personality.isRestored]);
+
   function renderView() {
     if (activeView === "home") {
       return (
@@ -471,6 +517,49 @@ export default function Home() {
           onNavigateProfile={() => setActiveView("profile")}
           onNavigateGroup={() => setActiveView("group_match")}
           onNavigateRealm={() => setActiveView("realm_feed")}
+          onStartPersona={() => setActiveView("persona_seed")}
+        />
+      );
+    }
+
+    if (activeView === "persona_seed") {
+      return (
+        <PersonaSeedView
+          initialSeed={personality.initialSeed}
+          isLoading={personality.isLoading}
+          error={personality.error}
+          onSeedChange={personality.setInitialSeed}
+          onStart={(seed) => void handleStartPersonality(seed)}
+          onUseDemoSeed={() => void handleUseDemoPersonalitySeed()}
+        />
+      );
+    }
+
+    if (activeView === "persona_test") {
+      return (
+        <PersonaTestView
+          messages={personality.messages}
+          currentQuestion={personality.currentQuestion}
+          phase={personality.state.phase}
+          answeredCount={personality.answeredCount}
+          totalQuestions={personality.totalQuestions}
+          needsVerification={personality.needsVerification}
+          isLoading={personality.isLoading}
+          error={personality.error}
+          onAnswer={(answer) => void handlePersonalityAnswer(answer)}
+          onReset={handleRestartPersonality}
+        />
+      );
+    }
+
+    if (activeView === "persona_result") {
+      return (
+        <PersonaResultView
+          finalProfile={personality.finalProfile}
+          parseError={personality.parseError}
+          needsVerification={personality.needsVerification}
+          onEnterInterview={() => setActiveView("interview")}
+          onRestart={handleRestartPersonality}
         />
       );
     }
@@ -498,7 +587,6 @@ export default function Home() {
       return (
         <ProfileView
           profile={profile}
-          rawContent={profileRawContent}
           groupLoading={groupMatchLoading}
           peopleLoading={peopleMatchLoading}
           realmLoading={realmLoading}
@@ -519,6 +607,7 @@ export default function Home() {
           response={groupMatchResponse}
           loading={groupMatchLoading}
           negotiatingTargetId={negotiatingTargetId}
+          usesLongTermProfile={Boolean(personality.finalProfile)}
           onMatch={() => void handleMatchGroups()}
           onNegotiateGroup={(groupId) => void handleNegotiateGroup(groupId)}
         />
@@ -531,6 +620,7 @@ export default function Home() {
           response={peopleMatchResponse}
           loading={peopleMatchLoading}
           negotiatingTargetId={negotiatingTargetId}
+          usesLongTermProfile={Boolean(personality.finalProfile)}
           onMatch={() => void handleMatchPeople()}
           onNegotiatePerson={(personId) => void handleNegotiatePerson(personId)}
         />
@@ -543,6 +633,7 @@ export default function Home() {
           response={realmResponse}
           loading={realmLoading}
           negotiatingTargetId={negotiatingTargetId}
+          usesLongTermProfile={Boolean(personality.finalProfile)}
           onRecommend={() => void handleRecommendRealm()}
           onNegotiatePerson={(personId, contentId) =>
             void handleNegotiatePersonFromContent(personId, contentId)
@@ -564,6 +655,7 @@ export default function Home() {
         <NegotiationView
           response={negotiationResponse}
           loading={negotiationLoading}
+          usesLongTermProfile={Boolean(personality.finalProfile)}
         />
       </>
     );
@@ -577,6 +669,7 @@ export default function Home() {
         <RightPanel
           activeView={activeView}
           profile={profile}
+          hasSoulProfile={Boolean(personality.finalProfile)}
           userRoundCount={userRoundCount}
         />
       }

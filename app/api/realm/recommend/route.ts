@@ -58,6 +58,7 @@ export async function POST(req: NextRequest) {
     const systemPrompt = await loadRealmRecommenderPrompt();
     const promptInput = buildRealmRecommendationPromptInput({
       profile,
+      soulProfile: body.soulProfile,
       contentItems,
       people,
       groups,

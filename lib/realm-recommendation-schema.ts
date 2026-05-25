@@ -2,6 +2,7 @@ import { z } from "zod";
 import { ContentItemSchema } from "./content-schema";
 import { GroupProfileSchema } from "./group-schema";
 import { PersonProfileSchema } from "./person-schema";
+import type { PersonalityProfile } from "./personality-schema";
 
 export const ConnectableTargetSchema = z.object({
   target_type: z.enum(["person", "group"]),
@@ -56,6 +57,7 @@ export type ContentWithAuthorAndGroups = z.infer<typeof ContentItemSchema> & {
 
 export type RealmRecommendationRequest = {
   profile: unknown;
+  soulProfile?: PersonalityProfile | null;
 };
 
 export type RealmRecommendationResponse = {

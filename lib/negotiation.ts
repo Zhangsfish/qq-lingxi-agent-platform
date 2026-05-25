@@ -1,5 +1,7 @@
 import type { ContentItem } from "./content-schema";
 import type { GroupProfile } from "./group-schema";
+import { buildPersonalityMatchingContext } from "./personality-context";
+import type { PersonalityProfile } from "./personality-schema";
 import {
   NegotiationResultSchema,
   type NegotiationRequest,
@@ -169,6 +171,7 @@ export function parseNegotiationResult(raw: string): NegotiationResult {
 export function buildNegotiationPromptInput(args: {
   request: NegotiationRequest;
   profile: unknown;
+  soulProfile?: PersonalityProfile | null;
   target: NegotiationTarget;
   sourceContent?: ContentItem | null;
 }): string {
@@ -176,7 +179,7 @@ export function buildNegotiationPromptInput(args: {
     {
       task: "agent_to_agent_negotiation",
       instruction:
-        "请根据 user_profile、target_profile 和 sourceContent 输出符合 schema 的 JSON。transcript 控制在 4 条，summary、risk、next_action、draft_message 保持简洁。target_type、target_id、source、content_id 必须与 request 一致。",
+        "请根据 user_profile、target_profile 和 sourceContent 输出符合 schema 的 JSON。user_profile 是本次具体需求的首要依据；若 long_term_personality 不为空，将它作为长期价值、能量与边界适配的辅助依据，并在对齐或风险判断中体现。transcript 控制在 4 条，summary、risk、next_action、draft_message 保持简洁。target_type、target_id、source、content_id 必须与 request 一致。",
       request: {
         targetType: args.request.targetType,
         targetId: args.request.targetId,
@@ -184,6 +187,7 @@ export function buildNegotiationPromptInput(args: {
         contentId: args.request.contentId ?? null,
       },
       user_profile: args.profile,
+      long_term_personality: buildPersonalityMatchingContext(args.soulProfile),
       target_type: args.target.type,
       target_profile: buildTargetForPrompt(args.target),
       source: args.request.source,

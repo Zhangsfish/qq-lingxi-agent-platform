@@ -40,7 +40,11 @@ export async function POST(req: NextRequest) {
     const sceneGroups = await loadGroupsByScene(profile.scene);
     const groups = sceneGroups.length > 0 ? sceneGroups : await loadGroups();
     const systemPrompt = await loadGroupMatcherPrompt();
-    const promptInput = buildGroupMatchingPromptInput(profile, groups);
+    const promptInput = buildGroupMatchingPromptInput(
+      profile,
+      groups,
+      body.soulProfile,
+    );
     const rawContent = await callSiliconFlow(
       systemPrompt,
       [

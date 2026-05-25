@@ -1,6 +1,7 @@
 import { z } from "zod";
 import { ContentItemSchema } from "./content-schema";
 import { PersonProfileSchema } from "./person-schema";
+import type { PersonalityProfile } from "./personality-schema";
 
 export const PersonMatchItemSchema = z.object({
   person_id: z.string(),
@@ -40,6 +41,7 @@ export type PersonMatchResult = z.infer<typeof PersonMatchResultSchema>;
 
 export type PersonMatchRequest = {
   profile: unknown;
+  soulProfile?: PersonalityProfile | null;
 };
 
 export type PersonWithContent = z.infer<typeof PersonProfileSchema> & {

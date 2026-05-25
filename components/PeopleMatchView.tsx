@@ -1,11 +1,14 @@
 import type { PersonMatchResponse } from "@/lib/person-match-schema";
+import { formatSceneLabel } from "@/lib/display-labels";
 import { LingxiBot } from "./LingxiBot";
+import { SafeMarkdownText } from "./SafeMarkdownText";
 import { TagPill } from "./TagPill";
 
 type PeopleMatchViewProps = {
   response: PersonMatchResponse | null;
   loading: boolean;
   negotiatingTargetId: string | null;
+  usesLongTermProfile: boolean;
   onMatch: () => void;
   onNegotiatePerson: (personId: string) => void;
 };
@@ -14,6 +17,7 @@ export function PeopleMatchView({
   response,
   loading,
   negotiatingTargetId,
+  usesLongTermProfile,
   onMatch,
   onNegotiatePerson,
 }: PeopleMatchViewProps) {
@@ -34,6 +38,11 @@ export function PeopleMatchView({
             <TagPill tone="green">长期交流倾向</TagPill>
             <TagPill tone="purple">优先可验证经验</TagPill>
           </div>
+          <p className="mt-4 max-w-3xl text-sm leading-6 text-slate-500">
+            {usesLongTermProfile
+              ? "本次推荐会优先依据你这次的具体需求，同时参考你的长期人格画像，用于判断群文化、沟通方式和长期适配度。"
+              : "本次推荐优先依据你这次的具体需求；完成人格测试后，还可参考长期人格画像判断长期适配度。"}
+          </p>
         </div>
         <LingxiBot size="lg" />
       </div>
@@ -67,7 +76,7 @@ export function PeopleMatchView({
                       {item.person.display_name}
                     </h2>
                     <p className="mt-1 text-sm text-slate-500">
-                      {item.person.role_type} / {item.person.scene}
+                      {item.person.role_type} / {formatSceneLabel(item.person.scene)}
                     </p>
                   </div>
                 </div>
@@ -82,14 +91,22 @@ export function PeopleMatchView({
                   </TagPill>
                 ))}
               </div>
-              <p className="text-sm leading-6 text-slate-600">
+              <div className="text-sm leading-6 text-slate-600">
                 <span className="font-bold text-slate-900">擅长什么：</span>
-                {item.summary_for_user}
-              </p>
-              <p className="mt-2 text-sm leading-6 text-slate-600">
+                <SafeMarkdownText
+                  content={item.summary_for_user}
+                  compact
+                  className="mt-1 text-slate-600"
+                />
+              </div>
+              <div className="mt-2 text-sm leading-6 text-slate-600">
                 <span className="font-bold text-slate-900">边界 / 风险提醒：</span>
-                {item.risk}
-              </p>
+                <SafeMarkdownText
+                  content={item.risk}
+                  compact
+                  className="mt-1 text-slate-600"
+                />
+              </div>
               {item.person.authoredContents.length > 0 ? (
                 <div className="mt-4 space-y-2 border-t border-blue-50 pt-3">
                   {item.person.authoredContents.slice(0, 2).map((content) => (
@@ -116,4 +133,3 @@ export function PeopleMatchView({
     </div>
   );
 }
-

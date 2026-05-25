@@ -1,4 +1,6 @@
 import type { GroupProfile } from "./group-schema";
+import { buildPersonalityMatchingContext } from "./personality-context";
+import type { PersonalityProfile } from "./personality-schema";
 import {
   GroupMatchResultSchema,
   type FilteredGroup,
@@ -56,6 +58,7 @@ export function parseGroupMatchResult(raw: string): GroupMatchResult {
 export function buildGroupMatchingPromptInput(
   profile: unknown,
   groups: GroupProfile[],
+  soulProfile?: PersonalityProfile | null,
 ): string {
   const candidateGroups: CandidateGroupForPrompt[] = groups.map((group) => ({
     id: group.id,
@@ -79,8 +82,9 @@ export function buildGroupMatchingPromptInput(
     {
       task: "match_user_profile_to_candidate_groups",
       instruction:
-        "请根据 user_profile 和 candidate_groups 输出符合 schema 的 JSON。只使用候选群中的 group_id。为了避免输出过长，请只返回 3 个 matches 和 1 个 filtered_out；reason、risk、summary 字段保持一句话。",
+        "请根据 user_profile 和 candidate_groups 输出符合 schema 的 JSON。user_profile 是当前具体需求的首要依据；若 long_term_personality 不为空，将它作为长期价值、能量与边界适配的辅助依据，并在理由或风险中体现。只使用候选群中的 group_id。为了避免输出过长，请只返回 3 个 matches 和 1 个 filtered_out；reason、risk、summary 字段保持一句话。",
       user_profile: profile,
+      long_term_personality: buildPersonalityMatchingContext(soulProfile),
       candidate_groups: candidateGroups,
     },
     null,

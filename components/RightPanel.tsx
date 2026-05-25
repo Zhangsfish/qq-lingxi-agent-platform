@@ -1,15 +1,20 @@
 import type { DemoView } from "@/lib/demo-types";
 import type { UserNeedProfile } from "@/lib/profile-schema";
 import { LingxiBot } from "./LingxiBot";
+import { SafeMarkdownText } from "./SafeMarkdownText";
 
 type RightPanelProps = {
   activeView: DemoView;
   profile: UserNeedProfile | null;
+  hasSoulProfile: boolean;
   userRoundCount: number;
 };
 
 const viewTitle: Record<DemoView, string> = {
   home: "灵犀能做什么",
+  persona_seed: "灵犀人格入口",
+  persona_test: "人格测试进度",
+  persona_result: "你的灵犀人格",
   interview: "AI 当前理解到的信息",
   profile: "为什么这样推荐？",
   group_match: "当前画像摘要",
@@ -21,8 +26,13 @@ const viewTitle: Record<DemoView, string> = {
 export function RightPanel({
   activeView,
   profile,
+  hasSoulProfile,
   userRoundCount,
 }: RightPanelProps) {
+  const isPersonaView =
+    activeView === "persona_seed" ||
+    activeView === "persona_test" ||
+    activeView === "persona_result";
   const contentNeed =
     profile?.content_channel.content_need || "想看真实案例、经验帖、路径拆解";
   const connectionNeed =
@@ -79,7 +89,7 @@ export function RightPanel({
           ].map(([title, text]) => (
             <div key={title} className="border-b border-blue-50 p-4 last:border-0">
               <p className="text-base font-semibold">{title}</p>
-              <p className="mt-1 text-sm leading-6 text-slate-500">{text}</p>
+              <SafeMarkdownText content={text} compact className="mt-1 text-slate-500" />
             </div>
           ))}
         </div>
@@ -105,10 +115,13 @@ export function RightPanel({
 
       {activeView !== "home" ? (
         <div className="mt-auto rounded-[22px] bg-slate-50 p-4 text-sm leading-6 text-slate-500">
-          推荐和协商结论会在 Agent 沟通后继续更新，当前页面保留可解释依据。
+          {isPersonaView
+            ? "这一步只建立长期人格画像；具体找人、找群和内容推荐会在下一步继续确认。"
+            : hasSoulProfile
+              ? "本次推荐与协商以具体需求为主，同时参考长期人格画像；不会向匹配对象暴露你的原始回答。"
+              : "推荐和协商结论会在 Agent 沟通后继续更新，当前页面保留可解释依据。"}
         </div>
       ) : null}
     </div>
   );
 }
-

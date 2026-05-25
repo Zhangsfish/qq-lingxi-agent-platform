@@ -1,0 +1,182 @@
+{
+  "version": "1.0.0",
+  "basePath": "/persona-penguins",
+  "items": [
+    {
+      "type": "INTJ",
+      "displayName": "INTJ-like",
+      "penguinName": "战略建筑师企鹅",
+      "shortTitle": "建筑师",
+      "oneLine": "冷静规划，擅长把复杂目标拆成长期路径。",
+      "avatar": "/persona-penguins/avatar/INTJ.png",
+      "withLabel": "/persona-penguins/with-label/INTJ.png",
+      "resultHero": "/persona-penguins/result-hero/INTJ.png",
+      "accent": "#4F7BFF"
+    },
+    {
+      "type": "INTP",
+      "displayName": "INTP-like",
+      "penguinName": "逻辑学者企鹅",
+      "shortTitle": "学者",
+      "oneLine": "追问底层机制，喜欢把世界拆成可理解的模型。",
+      "avatar": "/persona-penguins/avatar/INTP.png",
+      "withLabel": "/persona-penguins/with-label/INTP.png",
+      "resultHero": "/persona-penguins/result-hero/INTP.png",
+      "accent": "#6B8CFF"
+    },
+    {
+      "type": "ENTJ",
+      "displayName": "ENTJ-like",
+      "penguinName": "指挥官企鹅",
+      "shortTitle": "指挥官",
+      "oneLine": "目标感强，擅长组织资源并推动系统前进。",
+      "avatar": "/persona-penguins/avatar/ENTJ.png",
+      "withLabel": "/persona-penguins/with-label/ENTJ.png",
+      "resultHero": "/persona-penguins/result-hero/ENTJ.png",
+      "accent": "#3F6BEA"
+    },
+    {
+      "type": "ENTP",
+      "displayName": "ENTP-like",
+      "penguinName": "辩论家企鹅",
+      "shortTitle": "辩论家",
+      "oneLine": "靠碰撞产生洞察，喜欢挑战旧规则和低质量共识。",
+      "avatar": "/persona-penguins/avatar/ENTP.png",
+      "withLabel": "/persona-penguins/with-label/ENTP.png",
+      "resultHero": "/persona-penguins/result-hero/ENTP.png",
+      "accent": "#7C6BFF"
+    },
+    {
+      "type": "INFJ",
+      "displayName": "INFJ-like",
+      "penguinName": "提灯者企鹅",
+      "shortTitle": "提灯者",
+      "oneLine": "安静而坚定，愿意为重要的价值长期守望。",
+      "avatar": "/persona-penguins/avatar/INFJ.png",
+      "withLabel": "/persona-penguins/with-label/INFJ.png",
+      "resultHero": "/persona-penguins/result-hero/INFJ.png",
+      "accent": "#5DADEC"
+    },
+    {
+      "type": "INFP",
+      "displayName": "INFP-like",
+      "penguinName": "调停者企鹅",
+      "shortTitle": "调停者",
+      "oneLine": "重视内在真实，擅长感知细腻的意义和关系。",
+      "avatar": "/persona-penguins/avatar/INFP.png",
+      "withLabel": "/persona-penguins/with-label/INFP.png",
+      "resultHero": "/persona-penguins/result-hero/INFP.png",
+      "accent": "#77C9A8"
+    },
+    {
+      "type": "ENFJ",
+      "displayName": "ENFJ-like",
+      "penguinName": "主人公企鹅",
+      "shortTitle": "主人公",
+      "oneLine": "善于连接他人，也愿意为共同目标承担责任。",
+      "avatar": "/persona-penguins/avatar/ENFJ.png",
+      "withLabel": "/persona-penguins/with-label/ENFJ.png",
+      "resultHero": "/persona-penguins/result-hero/ENFJ.png",
+      "accent": "#4DB6AC"
+    },
+    {
+      "type": "ENFP",
+      "displayName": "ENFP-like",
+      "penguinName": "灵感家企鹅",
+      "shortTitle": "灵感家",
+      "oneLine": "热情开放，擅长发现可能性并点燃新的方向。",
+      "avatar": "/persona-penguins/avatar/ENFP.png",
+      "withLabel": "/persona-penguins/with-label/ENFP.png",
+      "resultHero": "/persona-penguins/result-hero/ENFP.png",
+      "accent": "#69C8FF"
+    },
+    {
+      "type": "ISTJ",
+      "displayName": "ISTJ-like",
+      "penguinName": "秩序执行企鹅",
+      "shortTitle": "秩序者",
+      "oneLine": "可靠、认真，擅长把责任和流程稳定落地。",
+      "avatar": "/persona-penguins/avatar/ISTJ.png",
+      "withLabel": "/persona-penguins/with-label/ISTJ.png",
+      "resultHero": "/persona-penguins/result-hero/ISTJ.png",
+      "accent": "#4C8BD9"
+    },
+    {
+      "type": "ISFJ",
+      "displayName": "ISFJ-like",
+      "penguinName": "守护者企鹅",
+      "shortTitle": "守护者",
+      "oneLine": "温和可靠，重视承诺、照顾和长期稳定。",
+      "avatar": "/persona-penguins/avatar/ISFJ.png",
+      "withLabel": "/persona-penguins/with-label/ISFJ.png",
+      "resultHero": "/persona-penguins/result-hero/ISFJ.png",
+      "accent": "#7AA7E8"
+    },
+    {
+      "type": "ESTJ",
+      "displayName": "ESTJ-like",
+      "penguinName": "总经理企鹅",
+      "shortTitle": "总经理",
+      "oneLine": "执行明确，擅长把规则、进度和责任组织起来。",
+      "avatar": "/persona-penguins/avatar/ESTJ.png",
+      "withLabel": "/persona-penguins/with-label/ESTJ.png",
+      "resultHero": "/persona-penguins/result-hero/ESTJ.png",
+      "accent": "#2F80ED"
+    },
+    {
+      "type": "ESFJ",
+      "displayName": "ESFJ-like",
+      "penguinName": "执事企鹅",
+      "shortTitle": "执事",
+      "oneLine": "热情周到，擅长照顾现场氛围和他人需求。",
+      "avatar": "/persona-penguins/avatar/ESFJ.png",
+      "withLabel": "/persona-penguins/with-label/ESFJ.png",
+      "resultHero": "/persona-penguins/result-hero/ESFJ.png",
+      "accent": "#6BA8FF"
+    },
+    {
+      "type": "ISTP",
+      "displayName": "ISTP-like",
+      "penguinName": "工匠企鹅",
+      "shortTitle": "工匠",
+      "oneLine": "冷静动手，喜欢直接理解系统如何运转。",
+      "avatar": "/persona-penguins/avatar/ISTP.png",
+      "withLabel": "/persona-penguins/with-label/ISTP.png",
+      "resultHero": "/persona-penguins/result-hero/ISTP.png",
+      "accent": "#3D7CC9"
+    },
+    {
+      "type": "ISFP",
+      "displayName": "ISFP-like",
+      "penguinName": "探险家企鹅",
+      "shortTitle": "探险家",
+      "oneLine": "敏感自由，擅长用审美和体验感知世界。",
+      "avatar": "/persona-penguins/avatar/ISFP.png",
+      "withLabel": "/persona-penguins/with-label/ISFP.png",
+      "resultHero": "/persona-penguins/result-hero/ISFP.png",
+      "accent": "#64B6F7"
+    },
+    {
+      "type": "ESTP",
+      "displayName": "ESTP-like",
+      "penguinName": "行动派企鹅",
+      "shortTitle": "行动派",
+      "oneLine": "反应迅速，喜欢在真实现场中试探和突破。",
+      "avatar": "/persona-penguins/avatar/ESTP.png",
+      "withLabel": "/persona-penguins/with-label/ESTP.png",
+      "resultHero": "/persona-penguins/result-hero/ESTP.png",
+      "accent": "#36A3FF"
+    },
+    {
+      "type": "ESFP",
+      "displayName": "ESFP-like",
+      "penguinName": "表演者企鹅",
+      "shortTitle": "表演者",
+      "oneLine": "活泼外放，擅长把情绪、现场和表达点燃。",
+      "avatar": "/persona-penguins/avatar/ESFP.png",
+      "withLabel": "/persona-penguins/with-label/ESFP.png",
+      "resultHero": "/persona-penguins/result-hero/ESFP.png",
+      "accent": "#9B7CFF"
+    }
+  ]
+}

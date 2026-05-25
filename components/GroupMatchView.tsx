@@ -1,11 +1,14 @@
 import type { GroupMatchResponse } from "@/lib/group-match-schema";
+import { formatSceneLabel } from "@/lib/display-labels";
 import { LingxiBot } from "./LingxiBot";
+import { SafeMarkdownText } from "./SafeMarkdownText";
 import { TagPill } from "./TagPill";
 
 type GroupMatchViewProps = {
   response: GroupMatchResponse | null;
   loading: boolean;
   negotiatingTargetId: string | null;
+  usesLongTermProfile: boolean;
   onMatch: () => void;
   onNegotiateGroup: (groupId: string) => void;
 };
@@ -14,6 +17,7 @@ export function GroupMatchView({
   response,
   loading,
   negotiatingTargetId,
+  usesLongTermProfile,
   onMatch,
   onNegotiateGroup,
 }: GroupMatchViewProps) {
@@ -35,6 +39,11 @@ export function GroupMatchView({
             <TagPill tone="green">真实案例偏好</TagPill>
             <TagPill tone="purple">长期交流倾向</TagPill>
           </div>
+          <p className="mt-4 max-w-3xl text-sm leading-6 text-slate-500">
+            {usesLongTermProfile
+              ? "本次推荐会优先依据你这次的具体需求，同时参考你的长期人格画像，用于判断群文化、沟通方式和长期适配度。"
+              : "本次推荐优先依据你这次的具体需求；完成人格测试后，还可参考长期人格画像判断长期适配度。"}
+          </p>
         </div>
         <LingxiBot size="lg" />
       </div>
@@ -56,7 +65,7 @@ export function GroupMatchView({
                   <div>
                     <h2 className="text-xl font-bold">{item.group.name}</h2>
                     <p className="mt-1 text-sm text-slate-500">
-                      {item.group.scene} / {item.group.category}
+                      {formatSceneLabel(item.group.scene)} / {item.group.category}
                     </p>
                   </div>
                 </div>
@@ -71,14 +80,22 @@ export function GroupMatchView({
                   </TagPill>
                 ))}
               </div>
-              <p className="text-sm leading-6 text-slate-600">
+              <div className="text-sm leading-6 text-slate-600">
                 <span className="font-bold text-slate-900">为什么推荐：</span>
-                {item.reason}
-              </p>
-              <p className="mt-2 text-sm leading-6 text-slate-600">
+                <SafeMarkdownText
+                  content={item.reason}
+                  compact
+                  className="mt-1 text-slate-600"
+                />
+              </div>
+              <div className="mt-2 text-sm leading-6 text-slate-600">
                 <span className="font-bold text-slate-900">风险提醒：</span>
-                {item.risk}
-              </p>
+                <SafeMarkdownText
+                  content={item.risk}
+                  compact
+                  className="mt-1 text-slate-600"
+                />
+              </div>
               <button
                 type="button"
                 onClick={() => onNegotiateGroup(item.group_id)}
@@ -101,7 +118,11 @@ export function GroupMatchView({
             {filtered.slice(0, 2).map((item) => (
               <div key={item.group_id} className="rounded-[18px] bg-white p-4">
                 <p className="font-semibold">{item.group.name}</p>
-                <p className="mt-1 text-sm text-slate-500">{item.reason}</p>
+                <SafeMarkdownText
+                  content={item.reason}
+                  compact
+                  className="mt-1 text-slate-500"
+                />
               </div>
             ))}
           </div>
@@ -136,4 +157,3 @@ function EmptyMatch({
     </div>
   );
 }
-
