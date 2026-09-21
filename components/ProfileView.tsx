@@ -1,10 +1,11 @@
 import type { UserNeedProfile } from "@/lib/profile-schema";
+import { formatRouteLabel } from "@/lib/display-labels";
 import { LingxiBot } from "./LingxiBot";
+import { SafeMarkdownText } from "./SafeMarkdownText";
 import { TagPill } from "./TagPill";
 
 type ProfileViewProps = {
   profile: UserNeedProfile | null;
-  rawContent: string;
   groupLoading: boolean;
   peopleLoading: boolean;
   realmLoading: boolean;
@@ -26,7 +27,6 @@ const fallbackRows = [
 
 export function ProfileView({
   profile,
-  rawContent,
   groupLoading,
   peopleLoading,
   realmLoading,
@@ -51,7 +51,7 @@ export function ProfileView({
         ],
       ]
     : fallbackRows;
-  const primaryRoute = profile?.routing_intent?.primary_route ?? "uncertain";
+  const primaryRoute = formatRouteLabel(profile?.routing_intent?.primary_route);
 
   return (
     <div>
@@ -86,7 +86,7 @@ export function ProfileView({
               }`}
             >
               <h2 className="text-xl font-bold">{title}</h2>
-              <p className="text-base leading-7 text-slate-600">{text}</p>
+              <SafeMarkdownText content={text} className="text-slate-600" />
             </div>
           ))}
         </div>
@@ -113,11 +113,6 @@ export function ProfileView({
               查看原始访谈
             </button>
           </div>
-          {rawContent ? (
-            <p className="mt-4 line-clamp-2 text-sm leading-6 text-slate-500">
-              {rawContent}
-            </p>
-          ) : null}
         </div>
       </div>
 
@@ -156,4 +151,3 @@ export function ProfileView({
     </div>
   );
 }
-

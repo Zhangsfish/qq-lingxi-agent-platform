@@ -1,5 +1,6 @@
 import type { ChatMessage } from "@/lib/types";
 import { LingxiBot } from "./LingxiBot";
+import { SafeMarkdownText } from "./SafeMarkdownText";
 
 type InterviewViewProps = {
   messages: ChatMessage[];
@@ -70,7 +71,11 @@ export function InterviewView({
                     : "bg-slate-100 text-slate-800"
                 }`}
               >
-                {message.content}
+                {isUser ? (
+                  message.content
+                ) : (
+                  <SafeMarkdownText content={message.content} />
+                )}
               </div>
               {isUser ? (
                 <div className="h-9 w-9 rounded-full bg-slate-200" />
@@ -152,4 +157,3 @@ export function InterviewView({
     </div>
   );
 }
-

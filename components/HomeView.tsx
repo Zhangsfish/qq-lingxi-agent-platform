@@ -7,6 +7,7 @@ type HomeViewProps = {
   onNavigateProfile: () => void;
   onNavigateGroup: () => void;
   onNavigateRealm: () => void;
+  onStartPersona: () => void;
 };
 
 const starters = [
@@ -21,6 +22,7 @@ export function HomeView({
   onNavigateProfile,
   onNavigateGroup,
   onNavigateRealm,
+  onStartPersona,
 }: HomeViewProps) {
   return (
     <div className="flex h-full flex-col">
@@ -35,6 +37,33 @@ export function HomeView({
         </div>
         <div className="hidden rounded-full bg-blue-50 px-10 py-6 sm:block">
           <LingxiBot size="lg" />
+        </div>
+      </div>
+
+      <div className="mb-6 rounded-[28px] border border-blue-100 bg-gradient-to-br from-blue-50 to-white p-6 shadow-sm">
+        <div className="flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <p className="text-sm font-bold text-blue-600">先测灵犀人格</p>
+            <h2 className="mt-2 text-3xl font-bold tracking-normal">
+              测一测你的 QQ-MBTI / 灵犀人格
+            </h2>
+            <p className="mt-3 max-w-2xl text-base leading-7 text-slate-500">
+              先让灵犀理解你长期的能量、偏好、边界和判断方式。测完后，
+              再进入具体找人、找群和找内容。
+            </p>
+          </div>
+          <div className="flex flex-col items-start gap-2 sm:items-end">
+            <button
+              type="button"
+              onClick={onStartPersona}
+              className="h-12 rounded-full bg-slate-950 px-6 text-base font-bold text-white transition hover:bg-slate-800"
+            >
+              开始测一测
+            </button>
+            <p className="text-sm text-slate-500">
+              也可以直接跳过，先输入具体需求
+            </p>
+          </div>
         </div>
       </div>
 
@@ -117,4 +146,3 @@ export function HomeView({
     </div>
   );
 }
-

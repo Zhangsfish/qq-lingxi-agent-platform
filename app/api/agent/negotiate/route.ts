@@ -30,6 +30,7 @@ function parseNegotiationRequest(body: unknown): NegotiationRequest {
 
   return {
     profile: request.profile,
+    soulProfile: request.soulProfile ?? null,
     targetType: NegotiationTargetTypeSchema.parse(request.targetType),
     targetId: request.targetId,
     source: NegotiationSourceSchema.parse(request.source),
@@ -64,6 +65,7 @@ export async function POST(req: NextRequest) {
       const promptInput = buildNegotiationPromptInput({
         request: requestBody,
         profile,
+        soulProfile: requestBody.soulProfile,
         target,
         sourceContent,
       });
@@ -106,6 +108,7 @@ export async function POST(req: NextRequest) {
     const promptInput = buildNegotiationPromptInput({
       request: requestBody,
       profile,
+      soulProfile: requestBody.soulProfile,
       target,
       sourceContent,
     });

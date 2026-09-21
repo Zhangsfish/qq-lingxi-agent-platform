@@ -49,6 +49,7 @@ export async function POST(req: NextRequest) {
       profile,
       people,
       contentItems,
+      body.soulProfile,
     );
     const rawContent = await callSiliconFlow(
       systemPrompt,

@@ -1,5 +1,6 @@
 import { z } from "zod";
 import { GroupProfileSchema } from "./group-schema";
+import type { PersonalityProfile } from "./personality-schema";
 
 export const GroupMatchItemSchema = z.object({
   group_id: z.string(),
@@ -38,6 +39,7 @@ export type GroupMatchResult = z.infer<typeof GroupMatchResultSchema>;
 
 export type GroupMatchRequest = {
   profile: unknown;
+  soulProfile?: PersonalityProfile | null;
 };
 
 export type GroupMatchResponse = {

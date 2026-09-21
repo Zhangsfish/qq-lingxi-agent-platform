@@ -2,15 +2,22 @@
 
 import { useEffect, useMemo, useState } from "react";
 import type { NegotiationResponse } from "@/lib/negotiation-schema";
+import { formatTechnicalTag } from "@/lib/display-labels";
 import { LingxiBot } from "./LingxiBot";
+import { SafeMarkdownText } from "./SafeMarkdownText";
 import { TagPill } from "./TagPill";
 
 type NegotiationViewProps = {
   response: NegotiationResponse | null;
   loading: boolean;
+  usesLongTermProfile: boolean;
 };
 
-export function NegotiationView({ response, loading }: NegotiationViewProps) {
+export function NegotiationView({
+  response,
+  loading,
+  usesLongTermProfile,
+}: NegotiationViewProps) {
   const [visibleTranscriptCount, setVisibleTranscriptCount] = useState(0);
   const result = response?.result;
   const transcriptLength = result?.negotiation_transcript.length ?? 0;
@@ -65,6 +72,11 @@ export function NegotiationView({ response, loading }: NegotiationViewProps) {
           <p className="mt-4 text-lg text-slate-500">
             用户 Agent 正在自动协商，帮助你判断是否值得进一步连接
           </p>
+          <p className="mt-3 max-w-3xl text-sm leading-6 text-slate-500">
+            {usesLongTermProfile
+              ? "协商内容会结合当前需求和长期人格画像，但不会向对方暴露你的原始回答。"
+              : "协商内容会依据当前需求进行判断，不会向对方暴露你的原始回答。"}
+          </p>
         </div>
         <LingxiBot size="lg" />
       </div>
@@ -108,9 +120,9 @@ export function NegotiationView({ response, loading }: NegotiationViewProps) {
                       }`}
                     >
                       <p className="mb-1 text-xs font-bold text-slate-500">
-                        {speakerLabel} · {item.purpose}
+                        {speakerLabel} · {formatTechnicalTag(item.purpose)}
                       </p>
-                      {item.message}
+                      <SafeMarkdownText content={item.message} compact />
                     </div>
                     {!isUserAgent ? (
                       <div className="flex h-10 w-10 items-center justify-center rounded-full bg-violet-100 text-sm font-black text-violet-600">
@@ -153,15 +165,25 @@ export function NegotiationView({ response, loading }: NegotiationViewProps) {
                 </div>
                 <div>
                   <h2 className="text-xl font-bold">给你的总结</h2>
-                  <p className="mt-2 text-sm leading-7 text-slate-600">
-                    {result?.summary_for_user}
-                  </p>
+                  {result?.summary_for_user ? (
+                    <SafeMarkdownText
+                      content={result.summary_for_user}
+                      compact
+                      className="mt-2 text-slate-600"
+                    />
+                  ) : null}
                   <h3 className="mt-4 font-bold text-blue-600">下一步建议</h3>
-                  <p className="mt-2 text-sm leading-7 text-slate-600">
-                    {result?.next_action}
-                  </p>
+                  {result?.next_action ? (
+                    <SafeMarkdownText
+                      content={result.next_action}
+                      compact
+                      className="mt-2 text-slate-600"
+                    />
+                  ) : null}
                   <div className="mt-4 rounded-[18px] bg-blue-50 p-4 text-sm leading-7 text-blue-800">
-                    {result?.draft_message}
+                    {result?.draft_message ? (
+                      <SafeMarkdownText content={result.draft_message} compact />
+                    ) : null}
                   </div>
                 </div>
               </div>
@@ -170,7 +192,7 @@ export function NegotiationView({ response, loading }: NegotiationViewProps) {
 
           {isTranscriptComplete ? (
             <p className="mt-3 text-sm text-slate-500">
-              目标：{targetName || result?.target_id}
+              目标：{targetName || "匹配对象"}
             </p>
           ) : null}
         </>
@@ -178,4 +200,3 @@ export function NegotiationView({ response, loading }: NegotiationViewProps) {
     </div>
   );
 }
-

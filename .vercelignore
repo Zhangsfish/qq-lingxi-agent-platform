@@ -1,0 +1,25 @@
+# Local environment and build output
+.env
+.env.*
+.vercel
+.next
+node_modules
+.npm-cache
+*.tsbuildinfo
+
+# Review packages and generated delivery material
+*.zip
+*.patch
+*_REPORT.md
+REVIEW*.md
+GITHUB_ISSUE_1_REPLY_DRAFT.md
+AUDIT.md
+VERCEL_ENV_CHECKLIST.md
+TAIL_FIX_AUDIT.md
+
+# Local verification logs and asset-working folders
+*.log
+scripts/__pycache__/
+assets/
+tasks/
+qq_lingxi_penguin_final_bundle/

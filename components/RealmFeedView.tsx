@@ -1,11 +1,14 @@
 import type { RealmRecommendationResponse } from "@/lib/realm-recommendation-schema";
+import { formatRecommendationLevel } from "@/lib/display-labels";
 import { LingxiBot } from "./LingxiBot";
+import { SafeMarkdownText } from "./SafeMarkdownText";
 import { TagPill } from "./TagPill";
 
 type RealmFeedViewProps = {
   response: RealmRecommendationResponse | null;
   loading: boolean;
   negotiatingTargetId: string | null;
+  usesLongTermProfile: boolean;
   onRecommend: () => void;
   onNegotiatePerson: (personId: string, contentId: string) => void;
   onNegotiateGroup: (groupId: string, contentId: string) => void;
@@ -15,6 +18,7 @@ export function RealmFeedView({
   response,
   loading,
   negotiatingTargetId,
+  usesLongTermProfile,
   onRecommend,
   onNegotiatePerson,
   onNegotiateGroup,
@@ -31,7 +35,9 @@ export function RealmFeedView({
             你当前场景下更值得看的内容
           </p>
           <div className="mt-4 rounded-[16px] bg-blue-50 px-4 py-3 text-sm text-blue-700">
-            根据你的画像，灵犀建议你先通过内容判断，再决定连接谁。
+            {usesLongTermProfile
+              ? "本次推荐会优先依据你这次的具体需求，同时参考你的长期人格画像，用于判断群文化、沟通方式和长期适配度。"
+              : "根据你这次的具体需求，灵犀建议你先通过内容判断，再决定连接谁。"}
           </div>
         </div>
         <LingxiBot size="lg" />
@@ -63,15 +69,19 @@ export function RealmFeedView({
               </div>
               <div className="mb-3 flex flex-wrap gap-2">
                 <TagPill>灵犀推荐</TagPill>
-                <TagPill tone="green">{item.recommendation_level}</TagPill>
+                <TagPill tone="green">
+                  {formatRecommendationLevel(item.recommendation_level)}
+                </TagPill>
               </div>
               <h2 className="text-xl font-bold">{item.content.title}</h2>
               <p className="mt-3 text-sm leading-6 text-slate-600">
                 {item.content.summary}
               </p>
-              <p className="mt-2 text-sm leading-6 text-slate-500">
-                {item.reason}
-              </p>
+              <SafeMarkdownText
+                content={item.reason}
+                compact
+                className="mt-2 text-slate-500"
+              />
               <div className="mt-4 flex flex-wrap gap-3">
                 {item.connectable_targets.slice(0, 2).map((target) => (
                   <button
@@ -103,7 +113,11 @@ export function RealmFeedView({
             {filtered.slice(0, 3).map((item) => (
               <div key={item.content_id} className="rounded-[18px] bg-white p-4">
                 <p className="font-semibold">{item.content.title}</p>
-                <p className="mt-1 text-sm text-red-500">{item.reason}</p>
+                <SafeMarkdownText
+                  content={item.reason}
+                  compact
+                  className="mt-1 text-red-500"
+                />
               </div>
             ))}
           </div>
@@ -112,4 +126,3 @@ export function RealmFeedView({
     </div>
   );
 }
-
