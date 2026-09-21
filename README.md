@@ -292,11 +292,8 @@ POST /api/realm/recommend
 - SILICONFLOW_API_KEY
 - SILICONFLOW_BASE_URL
 - SILICONFLOW_MODEL
-- DEMO_AUTH_USER
-- DEMO_AUTH_PASSWORD
 
 注意：
 
 - 不要把真实 API key 写入代码或提交到 Git。
-- DEMO_AUTH_USER / DEMO_AUTH_PASSWORD 配置后，Demo 页面和 API 会启用 Basic Auth。
-- 如果本地不配置 DEMO_AUTH_USER / DEMO_AUTH_PASSWORD，则不会启用访问密码。
+- Demo 页面和 API 公开访问，不再启用 Basic Auth。
